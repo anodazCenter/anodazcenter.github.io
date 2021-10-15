@@ -133,7 +133,7 @@ export default function index() {
 
         <section
           id="tokennomic"
-          class="panel tokennomic flex flex-col justify-center items-start"
+          className="panel tokennomic flex flex-col justify-center items-start"
         >
           <div
             className="pt-4 w-full text-center"
