@@ -41,9 +41,23 @@ export default function role() {
           backgroundImage: "url('/images/Role_Bg.png')",
         }}
       >
-        <section className="rolepanel copy flex justify-center items-center w-full">
+        <section className="rolepanel copy flex justify-center items-center w-full
+                             px-2
+                             2xl:px-0
+                             xl:px-0
+                             lg:px-0
+                             md:px-2
+                             sm:px-2
+        ">
           <div
-            className="py-4 rounded-2xl w-8/12 flex flex-col justify-center items-center"
+            className="py-4 rounded-2xl flex flex-col justify-center items-center
+                       w-full
+                       2xl:w-8/12
+                       xl:w-8/12
+                       lg:w-8/12
+                       md:w-full
+                       sm:w-full
+            "
             style={{
               backgroundColor: "rgba(0,0,0,0.6)",
             }}
@@ -54,9 +68,23 @@ export default function role() {
           </div>
         </section>
 
-        <section className="rolepanel beat flex justify-center items-center w-full">
+        <section className="rolepanel beat flex justify-center items-center w-full
+                         px-2
+                         2xl:px-0
+                         xl:px-0
+                         lg:px-0
+                         md:px-2
+                         sm:px-2
+        ">
           <div
-            className="py-4 rounded-2xl w-8/12 flex flex-col justify-center items-center"
+            className="py-4 rounded-2xl flex flex-col justify-center items-center
+                        w-full
+                        2xl:w-8/12
+                        xl:w-8/12
+                        lg:w-8/12
+                        md:w-full
+                        sm:w-full
+            "
             style={{
               backgroundColor: "rgba(0,0,0,0.6)",
             }}
@@ -67,9 +95,23 @@ export default function role() {
           </div>
         </section>
 
-        <section className="rolepanel host flex justify-center items-center w-full">
+        <section className="rolepanel host flex justify-center items-center w-full
+                        px-2
+                        2xl:px-0
+                        xl:px-0
+                        lg:px-0
+                        md:px-2
+                        sm:px-2
+        ">
           <div
-            className="py-4 rounded-2xl w-8/12 flex flex-col justify-center items-center"
+            className="py-4 rounded-2xl flex flex-col justify-center items-center
+                        w-full
+                        2xl:w-8/12
+                        xl:w-8/12
+                        lg:w-8/12
+                        md:w-full
+                        sm:w-full
+            "
             style={{
               backgroundColor: "rgba(0,0,0,0.6)",
             }}
@@ -80,9 +122,23 @@ export default function role() {
           </div>
         </section>
 
-        <section className="rolepanel host2 flex justify-center items-center w-full">
+        <section className="rolepanel host2 flex justify-center items-center w-full
+                         px-2
+                         2xl:px-0
+                         xl:px-0
+                         lg:px-0
+                         md:px-2
+                         sm:px-2
+        ">
           <div
-            className="py-4 rounded-2xl w-8/12 flex flex-col justify-center items-center"
+            className="py-4 rounded-2xl  flex flex-col justify-center items-center
+                        w-full
+                        2xl:w-8/12
+                        xl:w-8/12
+                        lg:w-8/12
+                        md:w-full
+                        sm:w-full
+            "
             style={{
               backgroundColor: "rgba(0,0,0,0.6)",
             }}
@@ -93,9 +149,23 @@ export default function role() {
           </div>
         </section>
 
-        <section className="rolepanel host3 flex justify-center items-center w-full">
+        <section className="rolepanel host3 flex justify-center items-center w-full
+                            px-2
+                            2xl:px-0
+                            xl:px-0
+                            lg:px-0
+                            md:px-2
+                            sm:px-2
+        ">
           <div
-            className="py-4 rounded-2xl w-8/12 flex flex-col justify-center items-center"
+            className="py-4 rounded-2xl  flex flex-col justify-center items-center
+                        w-full
+                        2xl:w-8/12
+                        xl:w-8/12
+                        lg:w-8/12
+                        md:w-full
+                        sm:w-full
+            "
             style={{
               backgroundColor: "rgba(0,0,0,0.6)",
             }}
@@ -106,9 +176,23 @@ export default function role() {
           </div>
         </section>
 
-        <section className="rolepanel listen flex justify-center items-center w-full">
+        <section className="rolepanel listen flex justify-center items-center w-full
+                         px-2
+                         2xl:px-0
+                         xl:px-0
+                         lg:px-0
+                         md:px-2
+                         sm:px-2
+        ">
           <div
-            className="py-4 rounded-2xl w-8/12 flex flex-col justify-center items-center"
+            className="py-4 rounded-2xl  flex flex-col justify-center items-center
+                          w-full
+                          2xl:w-8/12
+                          xl:w-8/12
+                          lg:w-8/12
+                          md:w-full
+                          sm:w-full
+            "
             style={{
               backgroundColor: "rgba(0,0,0,0.6)",
             }}
@@ -119,9 +203,24 @@ export default function role() {
           </div>
         </section>
 
-        <section className="rolepanel listen2 flex justify-center items-center w-full">
+        <section className="rolepanel listen2 flex justify-center items-center w-full
+                           px-2
+                           2xl:px-0
+                           xl:px-0
+                           lg:px-0
+                           md:px-2
+                           sm:px-2
+        
+        ">
           <div
-            className="py-4 rounded-2xl w-8/12 flex flex-col justify-center items-center"
+            className="py-4 rounded-2xl  flex flex-col justify-center items-center
+                        w-full
+                        2xl:w-8/12
+                        xl:w-8/12
+                        lg:w-8/12
+                        md:w-full
+                        sm:w-full
+            "
             style={{
               backgroundColor: "rgba(0,0,0,0.6)",
             }}

@@ -29,7 +29,14 @@ export default function tokenlabel() {
           className=" w-8 h-4 border-2 border-white   mr-2"
           style={{ backgroundColor: "#f9d801" }}
         ></div>
-        <p>Reward pool</p>
+        <p className='
+            text-base
+            2xl:text-4xl
+            xl:text-lg
+            lg:text-lg
+            md:text-lg
+            sm:text-base
+        '>Reward pool</p>
       </div>
 
       <div
@@ -42,7 +49,14 @@ export default function tokenlabel() {
           className=" w-8 h-4 border-2 border-white   mr-2"
           style={{ backgroundColor: "#f69125" }}
         ></div>
-        <p>Play to Earn</p>
+        <p  className='
+            text-base
+            2xl:text-4xl
+            xl:text-lg
+            lg:text-lg
+            md:text-lg
+            sm:text-base
+        '>Play to Earn</p>
       </div>
       <div
         id="#Public_Sale"
@@ -54,7 +68,14 @@ export default function tokenlabel() {
           className=" w-8 h-4 border-2 border-white   mr-2"
           style={{ backgroundColor: "#f05f96" }}
         ></div>
-        <p>Public Sale</p>
+        <p  className='
+            text-base
+            2xl:text-4xl
+            xl:text-lg
+            lg:text-lg
+            md:text-lg
+            sm:text-base
+        '>Public Sale</p>
       </div>
       <div
         id="#Private_Sale"
@@ -66,7 +87,14 @@ export default function tokenlabel() {
           className=" w-8 h-4 border-2 border-white   mr-2"
           style={{ backgroundColor: "#745ea7" }}
         ></div>
-        <p>Private Sale</p>
+        <p  className='
+            text-base
+            2xl:text-4xl
+            xl:text-lg
+            lg:text-lg
+            md:text-lg
+            sm:text-base
+        '>Private Sale</p>
       </div>
       <div
         id="#Copyright_Holder"
@@ -78,7 +106,14 @@ export default function tokenlabel() {
           className=" w-8 h-4 border-2 border-white   mr-2"
           style={{ backgroundColor: "#0481c4" }}
         ></div>
-        <p>Copyright Holder</p>
+        <p  className='
+            text-base
+            2xl:text-4xl
+            xl:text-lg
+            lg:text-lg
+            md:text-lg
+            sm:text-base
+        '>Copyright Holder</p>
       </div>
       <div
         id="#Party_team"
@@ -90,7 +125,14 @@ export default function tokenlabel() {
           className=" w-8 h-4 border-2 border-white   mr-2"
           style={{ backgroundColor: "#2aa8e2" }}
         ></div>
-        <p>3rd Party team</p>
+        <p  className='
+            text-base
+            2xl:text-4xl
+            xl:text-lg
+            lg:text-lg
+            md:text-lg
+            sm:text-base
+        '>3rd Party team</p>
       </div>
       <div
         id="#Core_team"
@@ -102,7 +144,14 @@ export default function tokenlabel() {
           className=" w-8 h-4 border-2 border-white   mr-2"
           style={{ backgroundColor: "#75c5ac" }}
         ></div>
-        <p>Core team</p>
+        <p  className='
+            text-base
+            2xl:text-4xl
+            xl:text-lg
+            lg:text-lg
+            md:text-lg
+            sm:text-base
+        '>Core team</p>
       </div>
       <div
         id="#Ecosystem_Fund"
@@ -114,7 +163,14 @@ export default function tokenlabel() {
           className=" w-8 h-4 border-2 border-white   mr-2"
           style={{ backgroundColor: "#cee52e" }}
         ></div>
-        <p>Ecosystem Fund</p>
+        <p  className='
+            text-base
+            2xl:text-4xl
+            xl:text-lg
+            lg:text-lg
+            md:text-lg
+            sm:text-base
+        '>Ecosystem Fund</p>
       </div>
     </>
   );

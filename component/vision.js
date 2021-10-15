@@ -29,15 +29,22 @@ export default function vision() {
         
         ">
           <h1
-            className="uppercase text-7xl font-bold mb-4"
+            className="uppercase  font-bold mb-4
+                        text-5xl    
+                        2xl:text-7xl
+                        xl:text-6xl 
+                        lg:text-5xl 
+                        md:text-5xl 
+                        sm:text-5xl 
+            "
             style={{ color: "rgb(255,132,164)" }}
           >
             Vision
           </h1>
-          <p className=" text-white 
+          <p className=" text-white z-10
                           pl-0        text-center     text-lg
                           2xl:pl-8    2xl:text-left   2xl:text-4xl
-                          xl:pl-8     xl:text-left    xl:text-3xl
+                          xl:pl-8     xl:text-left    xl:text-2xl
                           lg:pl-8     lg:text-left    lg:text-2xl
                           md:pl-0     md:text-center  md:text-xl
                           sm:pl-0     sm:text-center  sm:text-lg
@@ -54,8 +61,10 @@ export default function vision() {
                        lg:w-6/12    
                        md:w-full    
                        sm:w-full    
-        ">
-          <img className='absolute  w-full ' style={{top: '-10%',right: '50px'}}  src="/images/02.png" alt="" />
+        "
+        style={{overflowX: 'clip'}}
+        >
+          <img className='absolute  w-full ModelVision '  src="/images/02.png" alt="" />
         </div>
       </div>
     </>

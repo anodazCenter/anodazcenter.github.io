@@ -1,0 +1,35 @@
+@media (min-width: 1536px) {
+  .ModelVision {
+    top: -10%;
+    right: 50px;
+  }
+}
+@media (min-width: 1280px) {
+  .ModelVision {
+    top: -10%;
+    right: 0px;
+  }
+}
+@media (min-width: 1024px) {
+  .ModelVision {
+    top: 10%;
+    right: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .ModelVision {
+    top: 30%;
+    right: -100px;
+  }
+}
+@media (min-width: 640px) {
+  .ModelVision {
+    top: -15%;
+    right: -100px;
+  }
+}
+
+.ModelVision {
+    top: 0%;
+    right: -30px;
+  }

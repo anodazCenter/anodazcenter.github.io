@@ -1,7 +1,8 @@
 import React, { useRef, useEffect, useState } from "react";
 import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import Role from '../component/role'
+// import Role from '../component/role'
+import Token_table from "../component/token_table";
 
 // gsap.registerPlugin(ScrollTrigger);
 // const sections = [
@@ -99,7 +100,8 @@ export default function test() {
             })
         }
       </header> */}
-        <Role></Role>
+        {/* <Role></Role> */}
+<Token_table></Token_table>
 
     </>
   );
