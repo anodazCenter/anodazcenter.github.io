@@ -37,7 +37,7 @@ export default function index() {
   };
   return (
     <>
-      <style JSX>
+      <style JSX> 
         {`
    
     .scroll {
@@ -200,7 +200,6 @@ export default function index() {
         <section className="panel Plane">
           <Planphases></Planphases>
         </section>
-        <section className="panel Plane2"></section>
       </div>
 
       {/* <Role></Role> */}
