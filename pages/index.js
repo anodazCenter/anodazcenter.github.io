@@ -9,7 +9,7 @@ import Token_table from "../component/token_table";
 import Tokenlabel from "../component/tokenlabel";
 import Tokendetail from "../component/tokendetail";
 import Game from "../component/game";
-import Planphases from "../component/planphases";
+import Phases from "../component/phases";
 
 export default function index() {
   gsap.registerPlugin(ScrollTrigger);
@@ -20,7 +20,7 @@ export default function index() {
     });
   }, []);
 
-  const gotokenEnter = ({ currentTarget }) => {
+  const godownEnter = ({ currentTarget }) => {
     // let tokendetail = currentTarget.target.value
     console.log(currentTarget);
     gsap.to(currentTarget, {
@@ -29,7 +29,7 @@ export default function index() {
     });
   };
 
-  const gotokenLeave = ({ currentTarget }) => {
+  const godownLeave = ({ currentTarget }) => {
     gsap.to(currentTarget, {
       scale: 1,
       y: 0,
@@ -37,7 +37,7 @@ export default function index() {
   };
   return (
     <>
-      <style JSX> 
+      <style > 
         {`
    
     .scroll {
@@ -99,8 +99,8 @@ export default function index() {
           <div className="absolute bottom-4 w-full flex flex-col justify-center items-center">
             <div
               className="cursor-pointer "
-              onMouseEnter={gotokenEnter}
-              onMouseLeave={gotokenLeave}
+              onMouseEnter={godownEnter}
+              onMouseLeave={godownLeave}
             >
               <p
                 type="button"
@@ -197,9 +197,73 @@ export default function index() {
         <section className="panel Game">
           <Game></Game>
         </section>
-        <section className="panel Plane">
-          <Planphases></Planphases>
+        <section className="panel relative phases  flex flex-col justify-end items-center">
+          <div
+            className="w-full mb-2 text-right flex justify-end items-end
+                    pr-4
+                    2xl:pr-12
+                    xl:pr-12
+                    lg:pr-12
+                    md:pr-4
+                    sm:pr-4
+            "
+            style={{ height: "15vh" }}
+          >
+            <h1
+              className="uppercase  font-bold mb-4 
+                      text-3xl
+                      2xl:text-7xl
+                      xl:text-5xl
+                      lg:text-6xl
+                      md:text-5xl
+                      sm:text-5xl
+              "
+              style={{ color: "rgb(255,132,164)" }}
+            >
+              phases
+            </h1>
+           
+          </div>
+          <Phases></Phases>
+          <div className="absolute bottom-4 w-full flex flex-col justify-center items-center">
+            <div
+              className="cursor-pointer "
+              onMouseEnter={godownEnter}
+              onMouseLeave={godownLeave}
+            >
+              <p
+                type="button"
+                className=" uppercase  text-white font-light mx-auto
+                         text-base
+                         2xl:text-xl
+                         xl:text-sm
+                         lg:text-lg
+                         md:text-lg
+                         sm:text-lg
+                "
+              >
+                partner
+              </p>
+              <a href="#">
+                <img
+                  className="  transform rotate-90 cursor-pointer mx-auto
+                           w-10       h-10
+                           2xl:w-20   2xl:h-20
+                           xl:w-8    xl:h-8
+                           lg:w-10    lg:h-10
+                           md:w-10    md:h-10
+                           sm:w-10    sm:h-10
+                  "
+                  src="/images/arrow-right.png"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
         </section>
+
+
+
       </div>
 
       {/* <Role></Role> */}

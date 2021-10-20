@@ -5,6 +5,10 @@ export default function tokenlabel() {
   const onEnter = ({ currentTarget }) => {
     // let tokendetail = currentTarget.target.value
     console.log(currentTarget.id);
+    gsap.to("#default", {
+      opacity: 0,
+      xPercent: -10,
+    });
     gsap.to(currentTarget.id, {
       opacity: 1,
       xPercent: 0,
@@ -17,6 +21,7 @@ export default function tokenlabel() {
       xPercent: -10,
     });
   };
+  
   return (
     <>
       <div

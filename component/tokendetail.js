@@ -5,6 +5,18 @@ export default function tokendetail() {
   return (
     <>
       <div
+        id="default"
+        className="tokendetail absolute h-full w-full flex flex-col justify-start "
+      >
+        <h1 className="text-4xl font-bold mb-4" style={{ color: "#f9d801" }}>
+          Reward pool
+        </h1>
+        <p className=" text-xl font-bold text-white pl-6">
+          RHY ที่จะจ่ายให้ในกิจกรรมต่างๆ
+        </p>
+      </div>
+
+      <div
         id="reward_pool"
         className="tokendetail absolute h-full w-full flex flex-col justify-start opacity-0"
       >

@@ -4,7 +4,7 @@ export default function token_table() {
   return (
     <>
       <div className="w-full flex justify-center items-center h-full">
-        <div className=" border-2 py-4 border-white border-solid rounded-2xl 
+        <div className=" border-2 py-2 border-white border-solid rounded-2xl 
                     w-full
                     2xl:w-10/12
                     xl:w-10/12

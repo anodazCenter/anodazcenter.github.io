@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import '../styles/modelvision.css'
+import '../styles/phaseline.css'
 
 
 function MyApp({ Component, pageProps }) {
