@@ -1,7 +1,4 @@
 import React, { useEffect } from "react";
-import Chart from "../component/chart_pie";
-import Tokenlabel from "./tokenlabel";
-import Tokendetail from "./tokendetail";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
@@ -15,9 +12,10 @@ export default function role() {
     });
   }, []);
 
+
   return (
     <>
-      <style JSX>
+      <style >
         {`
      
       .rolescroll {
