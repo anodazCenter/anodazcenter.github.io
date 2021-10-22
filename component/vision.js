@@ -64,7 +64,7 @@ export default function vision() {
         "
         style={{overflowX: 'clip'}}
         >
-          <img className='absolute  w-full ModelVision '  src="/images/02.png" alt="" />
+          <img className='absolute  w-full ModelVision'  src="/images/02.png" alt="" />
         </div>
       </div>
     </>
