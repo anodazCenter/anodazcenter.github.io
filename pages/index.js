@@ -61,27 +61,30 @@ export default function index() {
         }}
       >
         <section className="panel header">
-          <Header></Header>
+          <Header></Header> 
         </section>
 
         <section className="panel vision">
           <Vision></Vision>
         </section>
 
-        <section className="panel relative role  flex flex-col justify-end items-center">
-          <div
-            className="w-full mb-2 text-right flex justify-end items-end
-                    pr-4
-                    2xl:pr-12
-                    xl:pr-12
-                    lg:pr-12
-                    md:pr-4
-                    sm:pr-4
+        <section   className="panel role bg-cover bg-bottom bg-no-repeat bg-scroll"  
+        style={{
+          backgroundImage: "url('/images/Role_Bg.png')",
+        }}>     
+        <div
+            className="w-full mb-2 text-center flex justify-center items-center
+                    px-4
+                    2xl:px-12
+                    xl:px-12
+                    lg:px-12
+                    md:px-4
+                    sm:px-4
             "
-            style={{ height: "18vh" }}
+            style={{ height: "15vh" }}
           >
             <h1
-              className="uppercase  font-bold mb-4 
+              className="uppercase  font-bold  w-full 
                       text-3xl
                       2xl:text-7xl
                       xl:text-5xl
@@ -95,43 +98,8 @@ export default function index() {
             </h1>
            
           </div>
-          <Role></Role>
-          <div className="absolute bottom-4 w-full flex flex-col justify-center items-center">
-            <div
-              className="cursor-pointer "
-              onMouseEnter={godownEnter}
-              onMouseLeave={godownLeave}
-            >
-              <p
-                type="button"
-                className=" uppercase  text-white font-light mx-auto
-                         text-base
-                         2xl:text-xl
-                         xl:text-sm
-                         lg:text-lg
-                         md:text-lg
-                         sm:text-lg
-                "
-              >
-                tokennomics
-              </p>
-              <a href="#tokennomic">
-                <img
-                  className="  transform rotate-90 cursor-pointer mx-auto
-                           w-10       h-10
-                           2xl:w-20   2xl:h-20
-                           xl:w-8    xl:h-8
-                           lg:w-10    lg:h-10
-                           md:w-10    md:h-10
-                           sm:w-10    sm:h-10
-                  "
-                  src="/images/arrow-right.png"
-                  alt=""
-                />
-              </a>
-            </div>
-          </div>
-        </section>
+          <Role ></Role>          
+        </section>     
 
         <section
           id="tokennomic"
