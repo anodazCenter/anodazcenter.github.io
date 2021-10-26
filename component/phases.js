@@ -524,7 +524,7 @@ export default function test_phases() {
                                 sm:text-3xl
               "
               >
-                <li>Praty Club / Band</li>
+                <li>Party Club / Band</li>
                 <li>New Mode </li>
               </ul>
             </div>
