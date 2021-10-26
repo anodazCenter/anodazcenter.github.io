@@ -144,7 +144,7 @@ export default function index() {
             <div className="w-4/12">
               <Chart></Chart>
             </div>
-            <div className="w-2/12 text-white text-xl 
+            <div className="w-4/12 text-white text-xl 
                   pl-2
                   2xl:pl-6
                   xl:pl-4
