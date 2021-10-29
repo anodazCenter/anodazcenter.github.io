@@ -19,7 +19,7 @@ export default function index() {
       scroller: ".scroll",
     });
   }, []);
-
+  
   const godownEnter = ({ currentTarget }) => {
     // let tokendetail = currentTarget.target.value
     console.log(currentTarget);
