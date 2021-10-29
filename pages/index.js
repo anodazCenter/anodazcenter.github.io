@@ -53,6 +53,7 @@ export default function index() {
     
       `}
       </style>
+      
 
       <div
         className="scroll w-full bg-cover bg-bottom bg-no-repeat bg-scroll"
