@@ -1,262 +1,104 @@
-import React, { useEffect } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import Header from "../component/header";
-import Vision from "../component/vision";
-import Role from "../component/role";
-import Chart from "../component/chart_pie";
-import Token_table from "../component/token_table";
-import Tokenlabel from "../component/tokenlabel";
-import Tokendetail from "../component/tokendetail";
-// import Game from "../component/game";
-import Phases from "../component/phases";
+import React from "react";
 
 export default function index() {
-  gsap.registerPlugin(ScrollTrigger);
-  useEffect(() => {
-    ScrollTrigger.defaults({
-      toggleActions: "restart pause resume pause",
-      scroller: ".scroll",
-    });
-  }, []);
-
-  const godownEnter = ({ currentTarget }) => {
-    // let tokendetail = currentTarget.target.value
-    console.log(currentTarget);
-    gsap.to(currentTarget, {
-      scale: 1.1,
-      y: 10,
-    });
-  };
-
-  const godownLeave = ({ currentTarget }) => {
-    gsap.to(currentTarget, {
-      scale: 1,
-      y: 0,
-    });
-  };
   return (
     <>
       <style>
         {`
-   
-    .scroll {
-      max-height: 100vh;
-      overflow-y: scroll;
-      scroll-snap-type: y mandatory;
-    }
-
-    .panel {
-      scroll-snap-align: start;
-      height: 100vh;
-    }
-    
-      `}
+        .btn-shadow{
+          box-shadow: 5px 20px 15px -2px rgba(0,0,0,0.5);
+        }
+        .ping-down-shadow{
+          box-shadow: 0px 34px 34px 0px rgba(0,0,0,0.5);
+        }
+        `}
       </style>
-      
-
+      {/* navbar tailwind react */}
       <div
-        className="scroll w-full bg-cover bg-bottom bg-no-repeat bg-scroll"
+        className="min-h-screen min-w-full bg-cover bg-no-repeat bg-left-top  relative"
         style={{
-          backgroundImage: "url('/images/BG.jpg')",
+          backgroundImage: "url('/images/BG.png')",
+          backgroundColor: "#1d1d1d",
         }}
       >
-        <section className="panel header">
-          <Header></Header>
-        </section>
+        <img
+          className="absolute -top-4 left-0 w-full"
+          src="/images/Nav_bar.png"
+          alt=""
+        />
 
-        <section className="panel vision">
-          <Vision></Vision>
-        </section>
-
-        <section
-          className="panel role bg-cover bg-bottom bg-no-repeat bg-scroll"
-          style={{
-            backgroundImage: "url('/images/Role_Bg.png')",
-          }}
-        >
-          <div
-            className="w-full mb-2 text-center flex justify-center items-center
-                    px-4
-                    2xl:px-12
-                    xl:px-12
-                    lg:px-12
-                    md:px-4
-                    sm:px-4
-            "
-            style={{ height: "15vh" }}
-          >
-            <h1
-              className="uppercase  font-bold  w-full 
-                      text-3xl
-                      2xl:text-7xl
-                      xl:text-5xl
-                      lg:text-6xl
-                      md:text-5xl
-                      sm:text-5xl
-              "
-              style={{ color: "rgb(255,132,164)" }}
-            >
-              role in rhyquiem
-            </h1>
-          </div>
-          <Role></Role>
-        </section>
-
-        <section
-          id="tokennomic"
-          className="panel tokennomic flex flex-col justify-center items-start"
-        >
-          <div
-            className="pt-4 w-full text-center"
-            style={{ color: "rgb(255,132,164)" }}
-          >
-            <h1
-              className=" uppercase font-bold mb-4
-                        text-3xl
-                        2xl:text-7xl
-                        xl:text-5xl
-                        lg:text-6xl
-                        md:text-5xl
-                        sm:text-5xl
-            "
-            >
-              tokennomics
-            </h1>
-          
-          </div>
-          <div
-            className=" w-full text-center"
-            style={{ color: "rgb(255,132,164)" }}
-          >
-            <h1  className=" uppercase font-bold text-white
-                        text-lg
-                        2xl:text-3xl
-                        xl:text-2xl
-                        lg:text-xl
-                        md:text-lg
-                        sm:text-lg
-            ">100,000,000 Token</h1>
-          
-          </div>
-          <div
-            className="w-full   justify-center items-center
-                          flex          py-4
-                          2xl:hidden    2xl:py-14
-                          xl:hidden     xl:py-14
-                          lg:flex       lg:py-14
-                          md:flex       md:py-12
-                          sm:flex       sm:py-10
-            
-            "
-          >
-            <Token_table></Token_table>
-          </div>
-
-          <div
-            className="w-full px-14  justify-center items-center
-             hidden
-             2xl:flex
-             xl:flex
-             lg:hidden
-             md:hidden
-             sm:hidden"
-            style={{ height: "80vh" }}
-          >
-            <div className="w-4/12">
-              <Chart></Chart>
+        {/* header */}
+        <div className="relative w-full h-screen overflow-y-hidden ping-down-shadow">
+          <img
+            className=" absolute top-10 -left-4 w-1/2  "
+            src="/images/kenshiro.png"
+            alt=""
+          />
+          <div className="flex flex-wrap w-10/12  mx-auto pt-28   ">
+            <div className="w-1/2 relative">
+              <img
+                className="absolute top-0 right-0 w-full "
+                src="/images/02.png"
+                alt=""
+              />
             </div>
-            <div
-              className="w-2/12 text-white text-xl 
-                  pl-2
-                  2xl:pl-6
-                  xl:pl-4
-                  lg:pl-4
-                  md:pl-2
-                  sm:pl-2
-            "
-            >
-              <Tokenlabel></Tokenlabel>
-            </div>
-            <div className="w-6/12 py-8 px-12 h-4/5">
-              <div className="relative top-0 left-0 w-full  ">
-                <Tokendetail></Tokendetail>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* <section className="panel Game">
-          <Game></Game>
-        </section> */}
-
-
-        <section className="panel relative phases  flex flex-col justify-end items-center">
-          <div
-            className="w-full mb-2 text-right flex justify-end items-end
-                    pr-4
-                    2xl:pr-12
-                    xl:pr-12
-                    lg:pr-12
-                    md:pr-4
-                    sm:pr-4
-            "
-            style={{ height: "15vh" }}
-          >
-            <h1
-              className="uppercase  font-bold mb-4 
-                      text-3xl
-                      2xl:text-7xl
-                      xl:text-5xl
-                      lg:text-6xl
-                      md:text-5xl
-                      sm:text-5xl
-              "
-              style={{ color: "rgb(255,132,164)" }}
-            >
-              phases
-            </h1>
-          </div>
-          <Phases></Phases>
-          {/* <div className="absolute bottom-4 w-full flex flex-col justify-center items-center">
-            <div
-              className="cursor-pointer "
-              onMouseEnter={godownEnter}
-              onMouseLeave={godownLeave}
-            >
-              <p
-                type="button"
-                className=" uppercase  text-white font-light mx-auto
-                         text-base
-                         2xl:text-xl
-                         xl:text-sm
-                         lg:text-lg
-                         md:text-lg
-                         sm:text-lg
-                "
-              >
-                partner
+            <div className="w-1/2 flex flex-col justify-start items-center pt-32">
+              <img
+                className="w-8/12 mb-8"
+                src="/images/RQ_TextLogo.png"
+                alt=""
+              />
+              <p className="text-white text-4xl">
+                Consequat dolore id in aliqua. Adipisicing consectetur officia
+                ex quis reprehenderit aliqua elit.
               </p>
-              <a href="#">
-                <img
-                  className="  transform rotate-90 cursor-pointer mx-auto
-                           w-10       h-10
-                           2xl:w-20   2xl:h-20
-                           xl:w-8    xl:h-8
-                           lg:w-10    lg:h-10
-                           md:w-10    md:h-10
-                           sm:w-10    sm:h-10
-                  "
-                  src="/images/arrow-right.png"
-                  alt=""
-                />
-              </a>
             </div>
-          </div> */}
-        </section>
+            <img
+              className="absolute -bottom-24 left-0 w-full "
+              src="/images/Ping_down_01.png"
+              alt=""
+            />
+          </div>
+          <div className="absolute bottom-16 left-0 w-full flex justify-center ">
+            <button
+              className=" text-white text-5xl font-extralight py-4 px-12 rounded-xl uppercase  w-96 mx-4 btn-shadow"
+              style={{
+                backgroundColor: "#1d1d1d",
+              }}
+              type="button"
+            >
+              Whitepaper
+            </button>
+
+            <button
+              className=" text-white text-5xl font-extralight py-4 px-12 rounded-xl uppercase  w-96 mx-4 btn-shadow"
+              style={{
+                backgroundColor: "#1d1d1d",
+              }}
+              type="button"
+            >
+              Discord
+            </button>
+          </div>
+        </div>
       </div>
 
-      {/* <Role></Role> */}
+      <div className="w-full h-screen relative " 
+      style={{
+        backgroundColor: '#1d1d1d',
+        zIndex:'-10'
+      }}
+      ></div>
+
+      {/*  --------------------------------------------------------------------------------------------------- contact  sticky*/}
+      <div className=" fixed   bottom-0 right-0 p-4  flex flex-col justify-end items-end">
+        {/* discord */}
+        <img className="w-16" src="/images/discord.png" alt="" />
+        {/* twitter */}
+        <img className="w-16 my-2" src="/images/twitter.png" alt="" />
+        {/* telegram */}
+        <img className="w-16  " src="/images/telegram.png" alt="" />
+      </div>
     </>
   );
 }
