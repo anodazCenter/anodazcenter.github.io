@@ -143,8 +143,8 @@ export default function index() {
           </div>
         </div>
 
-        <div className=" w-6/12 flex justify-between items-center mt-56  text-white mx-auto">
-          <img className="w-full" src="/images/Tokenomic.png" alt="" />
+        <div className=" w-10/12 flex justify-between items-center mt-56  text-white mx-auto">
+          <img className="w-full" src="/images/Tokenomic.png" alt="" /> 
         </div>
 
         <div className="">
