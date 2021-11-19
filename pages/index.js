@@ -1,67 +1,6 @@
 import React from "react";
 
 export default function index() {
-
-  // function create collection mongoDB
-  
-
-  const createCollectionmongoDB = () => {
-    const collection = db.collection("myCollection");
-    collection.insertOne({
-      name: "John",
-      age: 21
-    }, function(err, result) {
-      assert.equal(err, null);
-      assert.equal(1, result.result.n);
-      assert.equal(1, result.ops.length);
-      console.log("Inserted 1 document into the collection");
-      callback(result);
-    });
-  };
-
-  const connectmysql = () => {
-    const connection = mysql.createConnection({
-      host: "localhost",
-      user: "root",
-      password: "",
-      database: "mydb"
-    });
-    connection.connect(function(err) {
-      if (err) throw err;
-      console.log("Connected!");
-    });
-  }
-  const insertuser = () => {
-    const user = {
-      name: "John",
-      age: 21
-    }
-    const sql = "INSERT INTO users SET ?";
-    connection.query(sql, user, function(err, result) {
-      if (err) throw err;
-      console.log("1 record inserted");
-    });
-  }
-  const updateuser = () => {
-    const user = {
-      name: "John",
-      age: 22
-    }
-    const sql = "UPDATE users SET ? WHERE ?";
-    connection.query(sql, [user, { name: "John" }], function(err, result) {
-      if (err) throw err;
-      console.log(result.affectedRows + " record(s) updated");
-    });
-  }
-  const deleteuser = () => {
-    const sql = "DELETE FROM users WHERE ?";
-    connection.query(sql, { name: "John" }, function(err, result) {
-      if (err) throw err;
-      console.log("Number of records deleted: " + result.affectedRows);
-    });
-  }
-
-    
  
   return (
     <>
@@ -169,7 +108,7 @@ export default function index() {
                   md:text-3xl      md:text-center
                   sm:text-xl      sm:text-center
               ">
-                "อ้วกไม่นับ หลับแพ้"
+                lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
             </div>
             <img
