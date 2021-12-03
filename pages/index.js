@@ -12,6 +12,11 @@ export default function index() {
         .ping-down-shadow{
           box-shadow: 0px 34px 34px 0px rgba(0,0,0,0.5);
         }
+
+        .btn-hover:hover{
+          background-color: #1f1f1f !important;
+          border: solid 2px  #ffffff !important; 
+        }
         `}
       </style>
       {/* navbar tailwind react */}
@@ -133,7 +138,7 @@ export default function index() {
                   md:bottom-10
                   sm:bottom-12
           ">
-            <div className=" flex justify-around
+            <div className=" flex justify-around 
                       w-10/12        flex-col
                       2xl:w-10/12   2xl:flex-row
                       xl:w-11/12    xl:flex-row
@@ -142,7 +147,7 @@ export default function index() {
                       sm:w-full     sm:flex-col
             ">
               <button
-                className=" text-white  font-extralight   rounded-xl uppercase    btn-shadow my-2
+                className="btn-hover text-white  font-extralight   rounded-xl uppercase    btn-shadow  
                       text-2xl       py-2       px-4          w-3/4       mx-auto
                       2xl:text-5xl  2xl:py-4    2xl:px-12     2xl:w-1/4   2xl:mx-4
                       xl:text-3xl   xl:py-2     xl:px-12      xl:w-1/4    xl:mx-4
@@ -152,13 +157,14 @@ export default function index() {
                 "
                 style={{
                   backgroundColor: "#101010",
+                  border: 'solid 2px transparent' 
                 }}
                 type="button"
               >
                 Whitelist
               </button>
               <button
-                className=" text-white  font-extralight   rounded-xl uppercase    btn-shadow my-2
+                className="btn-hover text-white  font-extralight   rounded-xl uppercase    btn-shadow 
                       text-2xl       py-2       px-4          w-3/4       mx-auto
                       2xl:text-5xl  2xl:py-4    2xl:px-12     2xl:w-1/4   2xl:mx-4
                       xl:text-3xl   xl:py-2     xl:px-12      xl:w-1/4    xl:mx-4
@@ -168,13 +174,14 @@ export default function index() {
                 "
                 style={{
                   backgroundColor: "#101010",
+                  border: 'solid 2px transparent' 
                 }}
                 type="button"
               >
                 Whitepaper
               </button>
               <button
-                className=" text-white  font-extralight   rounded-xl uppercase    btn-shadow my-2
+                className="btn-hover text-white  font-extralight   rounded-xl uppercase    btn-shadow 
                       text-2xl       py-2       px-4          w-3/4       mx-auto
                       2xl:text-5xl  2xl:py-4    2xl:px-12     2xl:w-1/4   2xl:mx-4
                       xl:text-3xl   xl:py-2     xl:px-12      xl:w-1/4    xl:mx-4
@@ -184,6 +191,7 @@ export default function index() {
                 "
                 style={{
                   backgroundColor: "#101010",
+                  border: 'solid 2px transparent' 
                 }}
                 type="button"
               >
@@ -371,7 +379,7 @@ export default function index() {
       ">
         {/* discord */}
         <img
-          className="  cursor-pointer rounded-full btn-shadow
+          className="  cursor-pointer rounded-full btn-shadow btn-hover
                 w-16
                 2xl:w-16
                 xl:w-10
@@ -384,7 +392,7 @@ export default function index() {
         />
         {/* twitter */}
         <img
-          className=" my-2 cursor-pointer rounded-full btn-shadow
+          className=" my-2 cursor-pointer rounded-full btn-shadow btn-hover
                   w-16
                   2xl:w-16
                   xl:w-10
@@ -397,7 +405,7 @@ export default function index() {
         />
         {/* telegram */}
         <img
-          className=" cursor-pointer rounded-full btn-shadow
+          className=" cursor-pointer rounded-full btn-shadow btn-hover
                   w-16
                   2xl:w-16
                   xl:w-10
