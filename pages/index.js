@@ -168,8 +168,8 @@ export default function index() {
                       sm:text-2xl   sm:py-2     sm:px-4       sm:w-3/4    sm:mx-auto
                 "
                 style={{
-                  backgroundColor: "#101010",
-                  border: "solid 2px transparent",
+                  backgroundColor: "transparent",
+                  border: "solid 5px #ee56b3",
                 }}
                 type="button"
               >
@@ -185,8 +185,8 @@ export default function index() {
                       sm:text-2xl   sm:py-2     sm:px-4       sm:w-3/4    sm:mx-auto
                 "
                 style={{
-                  backgroundColor: "#101010",
-                  border: "solid 2px transparent",
+                  backgroundColor: "transparent",
+                  border: "solid 5px #ee56b3",
                 }}
                 type="button"
               >
@@ -202,8 +202,8 @@ export default function index() {
                       sm:text-2xl   sm:py-2     sm:px-4       sm:w-3/4    sm:mx-auto
                 "
                 style={{
-                  backgroundColor: "#101010",
-                  border: "solid 2px transparent",
+                  backgroundColor: "transparent",
+                  border: "solid 5px #ee56b3",
                 }}
                 type="button"
               >
