@@ -113,7 +113,7 @@ export default function index() {
                   md:text-3xl      md:text-center
                   sm:text-xl      sm:text-center
               ">
-                lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Song rhythm, streaming, Social community networking
               </p>
             </div>
             <img
