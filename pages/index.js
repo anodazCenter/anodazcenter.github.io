@@ -23,7 +23,7 @@ export default function index() {
         className="h-screen w-full bg-cover bg-no-repeat bg-left-top  relative z-10 "
         style={{
           // backgroundImage: "url('/images/BG.png')",
-          backgroundColor: "#1d1d1d",
+          backgroundColor: "#101010",
         }}
       >
         <img
