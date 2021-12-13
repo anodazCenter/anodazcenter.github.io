@@ -102,16 +102,16 @@ export default function index() {
                 md:mb-6
                 sm:mb-2
                 "
-                src="/images/RQ_TextLogo.png"
+                src="/images/Logo_streamifi.png"
                 alt=""
               />
-              <p className="text-white px-8
-                  text-xl         text-center
-                  2xl:text-4xl    2xl:text-left
-                  xl:text-2xl     xl:text-left
-                  lg:text-xl      lg:text-left
-                  md:text-3xl      md:text-center
-                  sm:text-xl      sm:text-center
+              <p className="text-white px-8 text-center
+                  text-xl         
+                  2xl:text-4xl   
+                  xl:text-2xl     
+                  lg:text-xl      
+                  md:text-3xl      
+                  sm:text-xl      
               ">
                 Song rhythm, streaming, Social community networking
               </p>
