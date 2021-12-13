@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function index() {
-
   return (
     <>
       <style>
@@ -53,24 +52,29 @@ export default function index() {
             src="/images/kenshiro.png"
             alt=""
           />
-          <div className="flex flex-wrap   mx-auto    
+          <div
+            className="flex flex-wrap   mx-auto    
                 pt-10       w-full
                 2xl:pt-28   2xl:w-10/12
                 xl:pt-20    xl:w-10/12
                 lg:pt-20    lg:w-10/12
                 md:pt-16    md:w-full
                 sm:pt-16    sm:w-full
-          ">
-            <div className=" relative
+          "
+          >
+            <div
+              className=" relative
                     w-1/2
                     2xl:w-1/2
                     xl:w-1/2
                     lg:w-1/2
                     md:w-full
                     sm:w-full
-            " style={{
-                overflowX: 'clip'
-              }}>
+            "
+              style={{
+                overflowX: "clip",
+              }}
+            >
               <img
                 className="absolute   w-full 
                  top-0      right-0         hidden
@@ -85,16 +89,18 @@ export default function index() {
               />
             </div>
 
-            <div className=" flex flex-col justify-start items-center 
+            <div
+              className=" flex flex-col justify-start items-center 
                     pt-10       w-full
                     2xl:pt-32   2xl:w-1/2
                     xl:pt-16    xl:w-1/2
                     lg:pt-20    lg:w-1/2
                     md:pt-16    md:w-full
                     sm:pt-16    sm:w-full
-            ">
+            "
+            >
               <img
-                className="w-8/12 
+                className="w-4/12 
                 mb-2
                 2xl:mb-8
                 xl:mb-6
@@ -105,14 +111,16 @@ export default function index() {
                 src="/images/Logo_streamifi.png"
                 alt=""
               />
-              <p className="text-white px-8 text-center
+              <p
+                className="text-white px-8 text-center
                   text-xl         
                   2xl:text-4xl   
                   xl:text-2xl     
                   lg:text-xl      
                   md:text-3xl      
                   sm:text-xl      
-              ">
+              "
+              >
                 Song rhythm, streaming, Social community networking
               </p>
             </div>
@@ -130,22 +138,26 @@ export default function index() {
             />
           </div>
 
-          <div className="absolute  left-0 w-full flex justify-center  
+          <div
+            className="absolute  left-0 w-full flex justify-center  
                   bottom-20
                   2xl:bottom-16
                   xl:bottom-10
                   lg:bottom-10
                   md:bottom-10
                   sm:bottom-12
-          ">
-            <div className=" flex justify-around 
+          "
+          >
+            <div
+              className=" flex justify-around 
                       w-10/12        flex-col
                       2xl:w-10/12   2xl:flex-row
                       xl:w-11/12    xl:flex-row
                       lg:w-11/12    lg:flex-row
                       md:w-full     md:flex-row
                       sm:w-full     sm:flex-col
-            ">
+            "
+            >
               <button
                 className="btn-hover text-white  font-extralight   rounded-xl uppercase    btn-shadow  
                       text-2xl       py-2       px-4          w-3/4       mx-auto
@@ -157,7 +169,7 @@ export default function index() {
                 "
                 style={{
                   backgroundColor: "#101010",
-                  border: 'solid 2px transparent'
+                  border: "solid 2px transparent",
                 }}
                 type="button"
               >
@@ -174,7 +186,7 @@ export default function index() {
                 "
                 style={{
                   backgroundColor: "#101010",
-                  border: 'solid 2px transparent'
+                  border: "solid 2px transparent",
                 }}
                 type="button"
               >
@@ -191,7 +203,7 @@ export default function index() {
                 "
                 style={{
                   backgroundColor: "#101010",
-                  border: 'solid 2px transparent'
+                  border: "solid 2px transparent",
                 }}
                 type="button"
               >
@@ -220,103 +232,129 @@ export default function index() {
           src="/images/Ping_down_02.png"
           alt=""
         />
-        <div className=" w-full flex flex-col justify-center items-center  text-white
+        <div
+          className=" w-full flex flex-col justify-center items-center  text-white
               pt-24
               2xl:pt-48
               xl:pt-48
               lg:pt-36
               md:pt-24
               sm:pt-24
-        ">
-          <h1 className="font-bold  mb-6
+        "
+        >
+          <h1
+            className="font-bold  mb-6
                   text-5xl
                   2xl:text-7xl
                   xl:text-7xl
                   lg:text-5xl
                   md:text-5xl
                   sm:text-5xl
-          ">Our Vision</h1>
-          <p className="  text-center 
+          "
+          >
+            Our Vision
+          </h1>
+          <p
+            className="  text-center 
                 text-lg         w-full        px-2
                 2xl:text-3xl    2xl:w-1/2     2xl:px-4
                 xl:text-3xl     xl:w-1/2      xl:px-4
                 lg:text-2xl     lg:w-1/2      lg:px-4
                 md:text-xl      md:w-full     md:px-4
                 sm:text-xl      sm:w-full     sm:px-2
-          ">
-            Streami-fi is an NFT music and game platform where you may make music, construct beat maps, or simply sit and listen to music while earning money paid to you in SMF token.
+          "
+          >
+            Streami-fi is an NFT music and game platform where you may make
+            music, construct beat maps, or simply sit and listen to music while
+            earning money paid to you in SMF token.
           </p>
         </div>
 
-        <div className="  flex  items-center  text-white mx-auto
+        <div
+          className="  flex  items-center  text-white mx-auto
                 flex-col        justify-center        mt-24       w-10/12
                 2xl:flex-row    2xl:justify-between   2xl:mt-56   2xl:w-8/12
                 xl:flex-row     xl:justify-between    xl:mt-56    xl:w-8/12
                 lg:flex-row     lg:justify-between    lg:mt-36    lg:w-10/12
                 md:flex-col     md:justify-center     md:mt-36    md:w-10/12
                 sm:flex-col     sm:justify-center     sm:mt-24    sm:w-10/12
-        ">
-          <div className="  mb-2 
+        "
+        >
+          <div
+            className="  mb-2 
                 w-full
                 2xl:w-1/2
                 xl:w-1/2
                 lg:w-1/2
                 md:w-full
                 sm:w-full
-          ">
+          "
+          >
             <img src="/images/Object.png" alt="" />
           </div>
 
-          <div className="   
+          <div
+            className="   
                 w-full      px-0
                 2xl:w-1/2   2xl:px-8
                 xl:w-1/2    xl:px-8
                 lg:w-1/2    lg:px-8
                 md:w-full   md:px-4
                 sm:w-full   sm:px-0
-          ">
-            <h1 className="font-bold  mb-6 
+          "
+          >
+            <h1
+              className="font-bold  mb-6 
                   text-center       text-3xl
                   2xl:text-right    2xl:text-5xl
                   xl:text-right     xl:text-5xl
                   lg:text-right     lg:text-3xl
                   md:text-center    md:text-3xl
                   sm:text-center    sm:text-3xl
-            ">Listen Node</h1>
-            <p className="  pr-4 
+            "
+            >
+              Listen Node
+            </h1>
+            <p
+              className="  pr-4 
                   text-center       text-lg
                   2xl:text-left     2xl:text-2xl
                   xl:text-left      xl:text-2xl
                   lg:text-left      lg:text-2xl
                   md:text-center    md:text-xl
                   sm:text-center    sm:text-xl
-            ">
-              Users can enter the Listening Node to listen to music that Copyright holders,
-              Clubs, and Bands have published on Streami-fi by staking a specific amount of SMF to have it added to the Listening Node Playlist.
-              Streami-fi will pay listening users with SMF tokens.
+            "
+            >
+              Users can enter the Listening Node to listen to music that
+              Copyright holders, Clubs, and Bands have published on Streami-fi
+              by staking a specific amount of SMF to have it added to the
+              Listening Node Playlist. Streami-fi will pay listening users with
+              SMF tokens.
             </p>
           </div>
         </div>
 
-       
-        <div className=" w-10/12 flex justify-between items-center text-white mx-auto
+        <div
+          className=" w-10/12 flex justify-between items-center text-white mx-auto
                     mt-24    
                     2xl:mt-56
                     xl:mt-56 
                     lg:mt-36 
                     md:mt-36 
                     sm:mt-24 
-        ">
+        "
+        >
           <img className="w-full" src="/images/Tokenomic.png" alt="" />
         </div>
 
         <div className="">
-          <img className='w-full' src="/images/Nav_bar_down.png" alt="" />
+          <img className="w-full" src="/images/Nav_bar_down.png" alt="" />
         </div>
       </div>
 
       {/*  --------------------------------------------------------------------------------------------------- contact  sticky*/}
-      <div className=" fixed   bottom-0 right-0 p-4  flex-col justify-end items-end z-50 
+      <div
+        className=" fixed   bottom-0 right-0 p-4  flex-col justify-end items-end z-50 
             hidden
             2xl:flex
             xl:flex
@@ -324,7 +362,8 @@ export default function index() {
             md:hidden
             sm:hidden
       
-      ">
+      "
+      >
         {/* discord */}
         <img
           className="  cursor-pointer rounded-full btn-shadow btn-hover
@@ -365,7 +404,6 @@ export default function index() {
           alt=""
         />
       </div>
-
     </>
   );
 }
