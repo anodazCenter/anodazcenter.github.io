@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function index() {
- 
+
   return (
     <>
       <style>
@@ -69,8 +69,8 @@ export default function index() {
                     md:w-full
                     sm:w-full
             " style={{
-              overflowX: 'clip'
-            }}>
+                overflowX: 'clip'
+              }}>
               <img
                 className="absolute   w-full 
                  top-0      right-0         hidden
@@ -157,7 +157,7 @@ export default function index() {
                 "
                 style={{
                   backgroundColor: "#101010",
-                  border: 'solid 2px transparent' 
+                  border: 'solid 2px transparent'
                 }}
                 type="button"
               >
@@ -174,7 +174,7 @@ export default function index() {
                 "
                 style={{
                   backgroundColor: "#101010",
-                  border: 'solid 2px transparent' 
+                  border: 'solid 2px transparent'
                 }}
                 type="button"
               >
@@ -191,7 +191,7 @@ export default function index() {
                 "
                 style={{
                   backgroundColor: "#101010",
-                  border: 'solid 2px transparent' 
+                  border: 'solid 2px transparent'
                 }}
                 type="button"
               >
@@ -244,10 +244,7 @@ export default function index() {
                 md:text-xl      md:w-full     md:px-4
                 sm:text-xl      sm:w-full     sm:px-2
           ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis labore corporis aliquid id tempore delectus voluptatum
-            fugit ratione voluptatibus incidunt. Repudiandae reprehenderit
-            similique deserunt, unde illum explicabo rem officia assumenda.
+            Streami-fi is an NFT music and game platform where you may make music, construct beat maps, or simply sit and listen to music while earning money paid to you in SMF token.
           </p>
         </div>
 
@@ -294,63 +291,14 @@ export default function index() {
                   md:text-center    md:text-xl
                   sm:text-center    sm:text-xl
             ">
-              Users can enter the Listening Node to listen to music that Copyright holders, 
-              Clubs, and Bands have published on Streami-fi by staking a specific amount of SMF to have it added to the Listening Node Playlist. 
+              Users can enter the Listening Node to listen to music that Copyright holders,
+              Clubs, and Bands have published on Streami-fi by staking a specific amount of SMF to have it added to the Listening Node Playlist.
               Streami-fi will pay listening users with SMF tokens.
             </p>
           </div>
         </div>
 
-         <div className="  flex  items-center  text-white mx-auto
-                flex-col        justify-center        mt-24       w-10/12
-                2xl:flex-row    2xl:justify-between   2xl:mt-56   2xl:w-8/12
-                xl:flex-row     xl:justify-between    xl:mt-56    xl:w-8/12
-                lg:flex-row     lg:justify-between    lg:mt-36    lg:w-8/12
-                md:flex-col     md:justify-center     md:mt-36    md:w-10/12
-                sm:flex-col     sm:justify-center     sm:mt-24    sm:w-10/12
-        ">
-
-          <div className="
-                  w-full      px-0
-                  2xl:w-1/2   2xl:px-8
-                  xl:w-1/2    xl:px-8
-                  lg:w-1/2    lg:px-8
-                  md:w-full   md:px-4
-                  sm:w-full   sm:px-0
-          ">
-          <h1 className="font-bold  mb-6 
-                   text-center       text-3xl
-                   2xl:text-right    2xl:text-5xl
-                   xl:text-right     xl:text-5xl
-                   lg:text-right     lg:text-5xl
-                   md:text-center    md:text-3xl
-                   sm:text-center    sm:text-3xl
-            ">braroncica</h1>
-            <p className=" pr-4 
-                 text-center       text-lg
-                 2xl:text-left     2xl:text-2xl
-                 xl:text-left      xl:text-2xl
-                 lg:text-left      lg:text-2xl
-                 md:text-center    md:text-xl
-                 sm:text-center    sm:text-xl
-            ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perspiciatis labore corporis aliquid id tempore delectus
-              voluptatum fugit ratione voluptatibus incidunt.
-            </p>
-          </div>
-          <div className=" mt-2
-               w-full
-               2xl:w-1/2
-               xl:w-1/2
-               lg:w-1/2
-               md:w-full
-               sm:w-full
-          ">
-            <img src="/images/interface.jpg" alt="" />
-          </div>
-        </div>
-
+       
         <div className=" w-10/12 flex justify-between items-center text-white mx-auto
                     mt-24    
                     2xl:mt-56
