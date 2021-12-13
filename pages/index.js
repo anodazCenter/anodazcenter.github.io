@@ -176,7 +176,7 @@ export default function index() {
                 Whitelist
               </button>
               <a
-                className="btn-hover text-white  font-extralight   rounded-xl uppercase my-2   btn-shadow 
+                className="btn-hover text-white  font-extralight   rounded-xl uppercase my-2   btn-shadow text-center
                       text-2xl       py-2       px-4          w-3/4       mx-auto
                       2xl:text-5xl  2xl:py-4    2xl:px-12     2xl:w-1/4   2xl:mx-4
                       xl:text-3xl   xl:py-2     xl:px-12      xl:w-1/4    xl:mx-4
@@ -189,6 +189,7 @@ export default function index() {
                   border: "solid 5px #ee56b3",
                 }}
                 type="button"
+                href="https://streami-fi.gitbook.io/streami-fi/"
               >
                 Whitepaper
               </a>
