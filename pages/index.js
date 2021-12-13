@@ -22,7 +22,7 @@ export default function index() {
       <div
         className="h-screen w-full bg-cover bg-no-repeat bg-left-top  relative z-10 "
         style={{
-          backgroundImage: "url('/images/BG.png')",
+          // backgroundImage: "url('/images/BG.png')",
           backgroundColor: "#1d1d1d",
         }}
       >
@@ -49,7 +49,7 @@ export default function index() {
                     md:top-64     md:w-full   md:hidden
                     sm:top-10     sm:w-3/4    sm:hidden
             "
-            src="/images/kenshiro.png"
+            src="/images/sfbg.png"
             alt=""
           />
           <div
@@ -190,6 +190,7 @@ export default function index() {
                 }}
                 type="button"
                 href="https://streami-fi.gitbook.io/streami-fi/"
+                target="_blank"
               >
                 Whitepaper
               </a>
