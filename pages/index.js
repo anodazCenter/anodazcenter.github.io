@@ -49,7 +49,7 @@ export default function index() {
                     md:top-64     md:w-full   md:hidden
                     sm:top-10     sm:w-3/4    sm:hidden
             "
-            src="/images/sfbg.png"
+            src="/images/sfbg.png" 
             alt=""
           />
           <div
