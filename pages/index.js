@@ -100,13 +100,13 @@ export default function index() {
             "
             >
               <img
-                className="w-4/12 
-                mb-2
-                2xl:mb-8
-                xl:mb-6
-                lg:mb-6
-                md:mb-6
-                sm:mb-2
+                className="
+                w-10/12           mb-2
+                2xl:w-4/12        2xl:mb-8
+                xl:w-4/12         xl:mb-6
+                lg:w-4/12         lg:mb-6
+                md:w-10/12        md:mb-6
+                sm:w-10/12        sm:mb-2
                 "
                 src="/images/Logo_streamifi.png"
                 alt=""
