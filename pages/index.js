@@ -285,7 +285,7 @@ export default function index() {
                   lg:text-right     lg:text-3xl
                   md:text-center    md:text-3xl
                   sm:text-center    sm:text-3xl
-            ">braroncica</h1>
+            ">Listen Node</h1>
             <p className="  pr-4 
                   text-center       text-lg
                   2xl:text-left     2xl:text-2xl
@@ -294,9 +294,9 @@ export default function index() {
                   md:text-center    md:text-xl
                   sm:text-center    sm:text-xl
             ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perspiciatis labore corporis aliquid id tempore delectus
-              voluptatum fugit ratione voluptatibus incidunt.
+              Users can enter the Listening Node to listen to music that Copyright holders, 
+              Clubs, and Bands have published on Streami-fi by staking a specific amount of SMF to have it added to the Listening Node Playlist. 
+              Streami-fi will pay listening users with SMF tokens.
             </p>
           </div>
         </div>
