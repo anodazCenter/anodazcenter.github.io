@@ -14,7 +14,6 @@ export default function index() {
 
         .btn-hover:hover{
           background-color: #1f1f1f !important;
-          border: solid 2px  #ffffff !important; 
         }
         `}
       </style>
