@@ -49,7 +49,7 @@ export default function index() {
                     md:top-64     md:w-full   md:hidden
                     sm:top-10     sm:w-3/4    sm:hidden
             "
-            src="/images/kenshiro.png"
+            src="/images/Logo_streamifi.png"
             alt=""
           />
           <div
@@ -75,7 +75,7 @@ export default function index() {
                 overflowX: "clip",
               }}
             >
-              <img
+              {/* <img
                 className="absolute   w-full 
                  top-0      right-0         hidden
                  2xl:top-0  2xl:right-0     2xl:block
@@ -86,7 +86,7 @@ export default function index() {
                 "
                 src="/images/02.png"
                 alt=""
-              />
+              /> */}
             </div>
 
             <div
@@ -124,7 +124,7 @@ export default function index() {
                 Song rhythm, streaming, Social community networking
               </p>
             </div>
-            <img
+            {/* <img
               className="absolute  left-0 w-full 
                       bottom-0
                       2xl:-bottom-24
@@ -135,7 +135,7 @@ export default function index() {
               "
               src="/images/Ping_down_01.png"
               alt=""
-            />
+            /> */}
           </div>
 
           <div
@@ -159,7 +159,7 @@ export default function index() {
             "
             >
               <button
-                className="btn-hover text-white  font-extralight   rounded-xl uppercase my-4 btn-shadow  
+                className="btn-hover text-white  font-extralight   rounded-xl uppercase  btn-shadow  
                       text-2xl       py-2       px-4          w-3/4       mx-auto
                       2xl:text-5xl  2xl:py-4    2xl:px-12     2xl:w-1/4   2xl:mx-4
                       xl:text-3xl   xl:py-2     xl:px-12      xl:w-1/4    xl:mx-4
@@ -193,7 +193,7 @@ export default function index() {
                 Whitepaper
               </button>
               <button
-                className="btn-hover text-white  font-extralight   rounded-xl uppercase my-4   btn-shadow 
+                className="btn-hover text-white  font-extralight   rounded-xl uppercase    btn-shadow 
                       text-2xl       py-2       px-4          w-3/4       mx-auto
                       2xl:text-5xl  2xl:py-4    2xl:px-12     2xl:w-1/4   2xl:mx-4
                       xl:text-3xl   xl:py-2     xl:px-12      xl:w-1/4    xl:mx-4
