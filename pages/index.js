@@ -14,6 +14,7 @@ export default function index() {
 
         .btn-hover:hover{
           background-color: #1f1f1f !important;
+          border: solid 5px #ee56b3 !important;
         }
         `}
       </style>
@@ -101,9 +102,9 @@ export default function index() {
               <img
                 className="
                 w-10/12           mb-2
-                2xl:w-4/12        2xl:mb-8
-                xl:w-4/12         xl:mb-6
-                lg:w-4/12         lg:mb-6
+                2xl:w-6/12        2xl:mb-8
+                xl:w-6/12         xl:mb-6
+                lg:w-6/12         lg:mb-6
                 md:w-10/12        md:mb-6
                 sm:w-10/12        sm:mb-2
                 "
@@ -158,7 +159,7 @@ export default function index() {
             "
             >
               <button
-                className="btn-hover text-white  font-extralight   rounded-xl uppercase  btn-shadow  
+                className="btn-hover text-white  font-extralight   rounded-xl uppercase my-2  btn-shadow  
                       text-2xl       py-2       px-4          w-3/4       mx-auto
                       2xl:text-5xl  2xl:py-4    2xl:px-12     2xl:w-1/4   2xl:mx-4
                       xl:text-3xl   xl:py-2     xl:px-12      xl:w-1/4    xl:mx-4
@@ -174,8 +175,8 @@ export default function index() {
               >
                 Whitelist
               </button>
-              <button
-                className="btn-hover text-white  font-extralight   rounded-xl uppercase my-4   btn-shadow 
+              <a
+                className="btn-hover text-white  font-extralight   rounded-xl uppercase my-2   btn-shadow 
                       text-2xl       py-2       px-4          w-3/4       mx-auto
                       2xl:text-5xl  2xl:py-4    2xl:px-12     2xl:w-1/4   2xl:mx-4
                       xl:text-3xl   xl:py-2     xl:px-12      xl:w-1/4    xl:mx-4
@@ -190,9 +191,9 @@ export default function index() {
                 type="button"
               >
                 Whitepaper
-              </button>
+              </a>
               <button
-                className="btn-hover text-white  font-extralight   rounded-xl uppercase    btn-shadow 
+                className="btn-hover text-white  font-extralight   rounded-xl uppercase my-2    btn-shadow 
                       text-2xl       py-2       px-4          w-3/4       mx-auto
                       2xl:text-5xl  2xl:py-4    2xl:px-12     2xl:w-1/4   2xl:mx-4
                       xl:text-3xl   xl:py-2     xl:px-12      xl:w-1/4    xl:mx-4
