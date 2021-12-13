@@ -81,7 +81,7 @@ export default function index() {
                  2xl:top-0  2xl:right-0     2xl:block
                  xl:top-0   xl:right-0      xl:block
                  lg:top-0   lg:right-0      lg:block
-                 md:top-72  md:-right-36    md:block
+                 md:top-72  md:-right-36    md:hidden
                  sm:top-24  sm:-right-48    sm:hidden
                 "
                 src="/images/02.png"
