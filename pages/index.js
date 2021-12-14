@@ -167,7 +167,7 @@ export default function index() {
                 }}
                 type="button"
                 href="https://streami-fi.gitbook.io/streami-fi/"
-                target="_blank"
+                
               >
                 Whitepaper
               </a>
