@@ -70,7 +70,7 @@ export default function index() {
                     md:w-full
                     sm:w-full
             "
-              style={{
+              style={{ 
                 overflowX: "clip",
               }}
             >
