@@ -42,8 +42,8 @@ export default function index() {
           <img
             className=" absolute  -left-24 opacity-30
                     top-10        w-1/2        hidden
-                    2xl:-top-10    2xl:w-1/2   2xl:block
-                    xl:t-op-10     xl:w-1/2    xl:block
+                    2xl:-top-16    2xl:w-1/2   2xl:block
+                    xl:t-op-16     xl:w-1/2    xl:block
                     lg:-top-16     lg:w-3/5    lg:block
                     md:-top-64     md:w-full   md:hidden
                     sm:-top-10     sm:w-3/4    sm:hidden
