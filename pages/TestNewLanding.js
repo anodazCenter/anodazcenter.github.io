@@ -6,6 +6,8 @@ export default function TestNewLanding() {
             <h1>
                 hello streami-fi
             </h1>
+            {/* form input */}
+            
         </div>
     )
 }
