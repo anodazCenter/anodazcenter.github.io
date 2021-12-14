@@ -74,18 +74,7 @@ export default function index() {
                 overflowX: "clip",
               }}
             >
-              {/* <img
-                className="absolute   w-full 
-                 top-0      right-0         hidden
-                 2xl:top-0  2xl:right-0     2xl:block
-                 xl:top-0   xl:right-0      xl:block
-                 lg:top-0   lg:right-0      lg:block
-                 md:top-72  md:-right-36    md:hidden
-                 sm:top-24  sm:-right-48    sm:hidden
-                "
-                src="/images/02.png"
-                alt=""
-              /> */}
+             
             </div>
 
             <div
@@ -123,18 +112,7 @@ export default function index() {
                 Song rhythm, streaming, Social community networking
               </p>
             </div>
-            {/* <img
-              className="absolute  left-0 w-full 
-                      bottom-0
-                      2xl:-bottom-24
-                      xl:-bottom-20
-                      lg:-bottom-12
-                      md:bottom-0
-                      sm:-bottom-0
-              "
-              src="/images/Ping_down_01.png"
-              alt=""
-            /> */}
+         
           </div>
 
           <div
