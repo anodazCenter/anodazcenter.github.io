@@ -22,8 +22,7 @@ export default function index() {
       <div
         className="h-screen w-full bg-cover bg-no-repeat bg-left-top  relative z-10 "
         style={{
-          // backgroundImage: "url('/images/BG.png')",
-          backgroundColor: "#101010",
+          backgroundColor: "#101010"
         }}
       >
         <img
@@ -49,7 +48,7 @@ export default function index() {
                     md:top-64     md:w-full   md:hidden
                     sm:top-10     sm:w-3/4    sm:hidden
             "
-            src="/images/sfbg.png" 
+            src="/images/streamiFiBG.png" 
             alt=""
           />
           <div
