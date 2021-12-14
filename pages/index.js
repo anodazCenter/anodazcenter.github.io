@@ -40,7 +40,7 @@ export default function index() {
         {/* header */}
         <div className="relative w-full h-screen overflow-y-hidden ping-down-shadow">
           <img
-            className=" absolute  -left-4 opacity-70
+            className=" absolute  -left-16 opacity-30
                     top-10        w-1/2        hidden
                     2xl:top-10    2xl:w-1/2   2xl:block
                     xl:top-10     xl:w-1/2    xl:block
