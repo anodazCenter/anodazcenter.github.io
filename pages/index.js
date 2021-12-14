@@ -109,7 +109,7 @@ export default function index() {
                   sm:text-xl      
               "
               >
-                Song rhythm, streaming, Social community networkinggggg
+                Song rhythm, streaming, Social community networking 
               </p>
             </div>
          
