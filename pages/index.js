@@ -65,7 +65,7 @@ export default function index() {
               className=" relative
                     w-1/2
                     2xl:w-1/2
-                    xl:w-1/2
+                    xl:w-1/2 
                     lg:w-1/2
                     md:w-full
                     sm:w-full
