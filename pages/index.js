@@ -26,7 +26,7 @@ export default function index() {
         }}
       >
         <img
-          className="absolute  left-0 w-full
+          className="absolute  left-0 w-full z-10
                     top-0        block
                     2xl:-top-4    2xl:block
                     xl:-top-4     xl:block
@@ -40,13 +40,13 @@ export default function index() {
         {/* header */}
         <div className="relative w-full h-screen overflow-y-hidden ping-down-shadow">
           <img
-            className=" absolute  -left-16 opacity-30
+            className=" absolute  -left-24 opacity-30
                     top-10        w-1/2        hidden
-                    2xl:top-10    2xl:w-1/2   2xl:block
-                    xl:top-10     xl:w-1/2    xl:block
-                    lg:top-16     lg:w-3/5    lg:block
-                    md:top-64     md:w-full   md:hidden
-                    sm:top-10     sm:w-3/4    sm:hidden
+                    2xl:-top-10    2xl:w-1/2   2xl:block
+                    xl:t-op-10     xl:w-1/2    xl:block
+                    lg:-top-16     lg:w-3/5    lg:block
+                    md:-top-64     md:w-full   md:hidden
+                    sm:-top-10     sm:w-3/4    sm:hidden
             "
             src="/images/SF_BG.png" 
             alt=""
