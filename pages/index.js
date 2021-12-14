@@ -48,7 +48,7 @@ export default function index() {
                     md:top-64     md:w-full   md:hidden
                     sm:top-10     sm:w-3/4    sm:hidden
             "
-            src="/images/streamiFiBG.png" 
+            src="/images/SF_BG.png" 
             alt=""
           />
           <div
