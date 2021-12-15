@@ -14,6 +14,9 @@ export default function TestNewLanding() {
       <p className="title">hello streami-fi GG</p>
       <p className="sub-title">hello streami-fi GG</p>
       <button>hello streami-fi GG</button>
+      <br/>
+      <br/>
+      <a className="bn39" href="/"><span className="bn39span">Button</span></a>
       {/* form input */}
     </div>
   );
