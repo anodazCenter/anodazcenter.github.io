@@ -30,22 +30,3 @@ a {
 *{
   scroll-behavior: smooth;
 }
-
-h1{
-  font-size: calc(42px + (96 - 42)*(100vw - 360px)/1560);
-}
-h2{
-  font-size: calc(36px + (72 - 36)*(100vw - 360px)/1560);
-}
-h3{
-  font-size: calc(30px + (56 - 30)*(100vw - 360px)/1560);
-}
-h4{
-  font-size: calc(26px + (42 - 26)*(100vw - 360px)/1560);
-}
-h5{
-  font-size: calc(24px + (34 - 24)*(100vw - 360px)/1560);
-}
-h6{
-  font-size: calc(20px + (26 - 20)*(100vw - 360px)/1560);
-}
