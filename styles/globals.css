@@ -30,4 +30,7 @@ a {
 *{
   scroll-behavior: smooth;
 }
+h1{
+  font-size: calc(42+(96 - 42) * (100vw - 360)/(1920-360));
+}
 
