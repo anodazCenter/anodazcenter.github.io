@@ -32,6 +32,6 @@ a {
 }
 
 h1{
-  font-size: calc(42+(96 - 42) * (100vw - 360)/(1920-360));
+  font-size: calc(42px+(96px - 42px)*(100vw - 360px)/(1920px - 360px));
 }
 
