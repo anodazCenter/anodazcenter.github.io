@@ -8,7 +8,7 @@ export default function TestNewLanding() {
       <h3>hello streami-fi GG</h3>
       <h4>hello streami-fi GG</h4>
       <h5>hello streami-fi GG</h5>
-      <h6>hello streami-fi GG</h6>
+      <h6>hello streami-fi dfgsfdgd</h6>
       <br />
       <br />
       <p className="title">hello streami-fi GG</p>
