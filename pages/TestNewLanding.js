@@ -18,6 +18,9 @@ export default function TestNewLanding() {
             <h5>
                 hello streami-fi GG
             </h5>
+            <h6>
+                hello streami-fi GG
+            </h6>
             {/* form input */}
             
         </div>
