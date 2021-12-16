@@ -46,6 +46,7 @@
     color: #e21a84;
 }
 .mifi-event-title .event-name{
+    margin-left: 24px;
     color: #fff;
 }
 .mifi-event-sub{
