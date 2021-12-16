@@ -35,11 +35,11 @@
 
   .sf-btn {
     background-image: linear-gradient(135deg, #e21a84, #6c2bbb);
-    border-radius: 10px;
+    border-radius: 30px;
     box-sizing: border-box;
     color: #ffffff;
     display: block;
-    padding: 4px ;
+    padding: 5px ;
     position: relative;
     text-decoration: none;
     
@@ -48,14 +48,14 @@
   .sf-btn .sf-btn-text{
     align-items: center;
     background: #0f0f0f;
-    min-width: 8em;
-    border-radius: 10px;
+    min-width: 270px;
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     height: 100%;
     transition: background 0.5s ease;
     width: 100%;
-    padding: 4px ;
+    padding: 25px ;
   }
   .sf-btn:hover .sf-btn-text{
     background: transparent;
