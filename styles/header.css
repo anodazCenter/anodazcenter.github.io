@@ -18,7 +18,7 @@
     justify-content: center;
 }
 .mifi-header-logo{
-    width: calc(300px + (500 - 300) * (100vw - 360px) / 1560);
+    width: calc(260px + (400 - 260) * (100vw - 360px) / 1560);
     margin: 0 auto;
 }
 .mifi-header-bottom{
