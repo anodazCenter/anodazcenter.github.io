@@ -19,7 +19,7 @@ export default function header() {
                 </div>
                 <div>
                   <p>Count Down</p>
-                  <h5></h5>
+                  <h5>00 D 00 H 00 M</h5>
                 </div>
               </div>
             </div>
