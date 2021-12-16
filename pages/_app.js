@@ -1,8 +1,8 @@
+import "../styles/input.css";
 import "../styles/globals.css";
 import "../styles/Text.css";
 import "../styles/button.css";
-import "../styles/phaseline.css";
-import "../styles/modelvision.css";
+import "../styles/layuot_margin.css";
 import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
