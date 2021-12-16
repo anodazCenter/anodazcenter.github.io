@@ -4,7 +4,7 @@
 }
 @media screen and (max-width: 1536px) {
     .mifi-layout-margin{
-        margin: 0 calc(150px + (215 - 150) * ((100vw - 1280px) / (1536 - 1280)));
+        margin: 0 calc(150px + (165 - 150) * ((100vw - 1280px) / (1536 - 1280)));
     }
 }
 
