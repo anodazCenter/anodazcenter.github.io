@@ -6,7 +6,7 @@ export default function header() {
       {/* header */}
       <div className="mifi-header">
         <div className="mifi-header-logo">
-          <img src="../../static/images/logo.png" alt="logo" />
+          <img src="../../static/images/logo.png" alt="logo-mifi" />
         </div>
       </div>
     </>

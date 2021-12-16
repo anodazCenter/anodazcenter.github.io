@@ -4,25 +4,25 @@
 }
 @media screen and (max-width: 1536px) {
     .mifi-layout-margin{
-        margin: 0 215px;
+        margin: 0 calc(150px + (215 - 150) * ((100vw - 1280px) / (1536 - 1280)));
     }
 }
 
 @media screen and (max-width: 1280px) {
     .mifi-layout-margin{
-        margin: 0 150px;
+        margin: 0 calc(100px + (150 - 100) * ((100vw - 1024px) / ( 1280 - 1024)));
     }
 }
 
 @media screen and (max-width: 1024px) {
     .mifi-layout-margin{
-        margin: 0 100px;
+        margin: 0 calc(60px + (100 - 60) * ((100vw - 768px) / (1280 - 768)));
     }
 }
     
 @media screen and (max-width: 768px) {
     .mifi-layout-margin{
-        margin: 0 60px;
+        margin: 0 calc(40px + (60 - 40) * ((100vw - 640px) / (768 - 640)));
     }
 }
 @media screen and (max-width: 640px) {
