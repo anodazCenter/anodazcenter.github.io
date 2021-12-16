@@ -55,7 +55,7 @@
 }
 .mifi-wwm{
     width: 60%;
-    /* padding: calc(16px + (24 - 16) * (100vw - 360px) / 1560); */
+    padding: calc(16px + (24 - 16) * (100vw - 360px) / 1560);
 }
 .mifi-wwm-title h3{
    color: #e21a84;
