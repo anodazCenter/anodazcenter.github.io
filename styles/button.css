@@ -42,6 +42,7 @@
     padding: 8px 16px;
     position: relative;
     text-decoration: none;
+    min-width: 7em;
     z-index: 2;
   }
   .sf-btn .sf-btn-text{
