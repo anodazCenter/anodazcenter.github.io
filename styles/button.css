@@ -32,3 +32,31 @@
   .bn39:hover .bn39span {
     background: transparent;
   }
+
+  .sf-btn {
+    background-image: linear-gradient(135deg, #e21a84, #6c2bbb);
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: block;
+    padding: 5px ;
+    position: relative;
+    text-decoration: none;
+    
+    z-index: 2;
+  }
+  .sf-btn .sf-btn-text{
+    align-items: center;
+    background: #0f0f0f;
+    min-width: 200px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+    padding: 8px ;
+  }
+  .sf-btn:hover .sf-btn-text{
+    background: transparent;
+  }

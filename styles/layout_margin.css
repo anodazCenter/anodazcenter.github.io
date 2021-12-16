@@ -1,0 +1,34 @@
+.mifi-web-background {
+  background-color: #0f0f0f;
+}
+.mifi-layout-margin {
+  margin: 0 calc(8 + (12 - 8) * ((100vw - 230px) / (360 - 230)));
+}
+@media screen and (max-width: 1536px) {
+  .mifi-layout-margin {
+    margin: 0 calc(80px + (100 - 80) * ((100vw - 1280px) / (1536 - 1280)));
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .mifi-layout-margin {
+    margin: 0 calc(60px + (80 - 60) * ((100vw - 1024px) / (1280 - 1024)));
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .mifi-layout-margin {
+    margin: 0 calc(40px + (60 - 40) * ((100vw - 768px) / (1280 - 768)));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mifi-layout-margin {
+    margin: 0 calc(20px + (40 - 20) * ((100vw - 640px) / (768 - 640)));
+  }
+}
+@media screen and (max-width: 640px) {
+  .mifi-layout-margin {
+    margin: 0 calc(12 + (20 - 12) * ((100vw - 360px) / (640 - 360)));
+  }
+}

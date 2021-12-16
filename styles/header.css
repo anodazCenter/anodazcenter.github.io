@@ -1,0 +1,120 @@
+.mifi-header {
+  padding-bottom: 5vh;
+  width: 100%;
+  height: 100vh;
+  background-color: #0f0f0f;
+}
+.mifi-header-content {
+  background-image: url("/images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.mifi-header-logo {
+  width: calc(260px + (400 - 260) * (100vw - 360px) / 1560);
+  margin: 0 auto;
+}
+.mifi-header-bottom {
+  width: 100%;
+  margin-top: auto;
+  display: flex;
+  padding: calc(16px + (24 - 16) * (100vw - 360px) / 1560);
+}
+.mifi-event {
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
+  padding: calc(16px + (24 - 16) * (100vw - 360px) / 1560);
+  display: flex;
+  align-items: center;
+}
+.mifi-event img {
+  width: 160px;
+}
+.mifi-event-title {
+  margin-left: 10px;
+  display: flex;
+}
+.mifi-event-title .event {
+  color: #e21a84;
+}
+.mifi-event-title .event-name {
+  margin-left: 8px;
+  color: #fff;
+}
+.mifi-event-sub {
+  margin-left: 16px;
+  color: #fff;
+}
+.mifi-wwm {
+  width: 60%;
+  padding: calc(16px + (24 - 16) * (100vw - 360px) / 1560);
+}
+.mifi-wwm-title h3 {
+  color: #e21a84;
+}
+.mifi-wwm-title h6 {
+  color: #fff;
+}
+.mifi-wwm-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 1536px) {
+  
+}
+
+@media screen and (max-width: 1280px) {
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .mifi-event {
+        display: none;
+      }
+      .mifi-wwm {
+        width: 100%;
+        text-align: center;
+      }
+}
+
+@media screen and (max-width: 768px) {
+    .mifi-event {
+        display: none;
+      }
+      .mifi-wwm {
+        width: 100%;
+        text-align: center;
+      }
+      .mifi-wwm-btn {
+        flex-direction: column;
+      }
+      .mifi-wwm-btn button{
+          margin: 8px 0;
+      }
+}
+@media screen and (max-width: 640px) {
+  .mifi-event {
+    display: none;
+  }
+  .mifi-wwm {
+    width: 100%;
+    text-align: center;
+  }
+  .mifi-wwm-btn {
+    flex-direction: column;
+  }
+  .mifi-wwm-btn button{
+      margin: 8px 0;
+  }
+}
