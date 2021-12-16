@@ -33,9 +33,21 @@
     border-radius: 30px;
     padding: calc(16px + (24 - 16) * (100vw - 360px) / 1560);
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 .mifi-event img{
    width: 250px;
+}
+.mifi-event-title{
+    margin-left: 10px;
+}
+.mifi-event-title .event{
+    color: #e21a84;
+}
+.mifi-event-title .event-name{
+    color: #fff;
+}
+.mifi-event-sub{
+    margin-left: 16px;
+    color: #fff;
 }
