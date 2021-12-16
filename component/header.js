@@ -30,7 +30,13 @@ export default function header() {
               </div>
               <div className="mifi-wwm-btn">
                 <button className="sf-btn">
-                  <span className="sf-btn-text">Button</span>
+                  <span className="sf-btn-text">WHITELIST</span>
+                </button>
+                <button className="sf-btn">
+                  <span className="sf-btn-text">WHITEPAPER</span>
+                </button>
+                <button className="sf-btn">
+                  <span className="sf-btn-text">MARKETPLACE</span>
                 </button>
               </div>
             </div>
