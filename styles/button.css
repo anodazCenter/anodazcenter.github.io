@@ -39,21 +39,23 @@
     box-sizing: border-box;
     color: #ffffff;
     display: block;
-    padding: 8px 16px;
+    padding: 4px ;
     position: relative;
     text-decoration: none;
-    min-width: 7em;
+    
     z-index: 2;
   }
   .sf-btn .sf-btn-text{
     align-items: center;
     background: #0f0f0f;
+    min-width: 8em;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     height: 100%;
     transition: background 0.5s ease;
     width: 100%;
+    padding: 4px ;
   }
   .sf-btn:hover .sf-btn-text{
     background: transparent;
