@@ -4,7 +4,7 @@ export default function TestNewLanding() {
   return (
   <>
   {/* header */}
-  <div className="header">
+  <div className="mifi-layout-margin">
 
   </div>
   </>

@@ -16,7 +16,7 @@ export default function mat() {
         <button>hello streami-fi GG</button>
         <br/>
         <br/>
-        <a className="bn39 mx-auto" href="#"><span className="bn39span">Button</span></a>
+        <a className="bn39 mx-auto " href="#"><span className="bn39span">Button</span></a>
         <button className="sf-btn">
           <span className="sf-btn-text">Button</span>
         </button>
