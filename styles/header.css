@@ -71,15 +71,11 @@
 }
 
 @media screen and (max-width: 1536px) {
-    .mifi-event {
-        display: flex;
-      }
+  
 }
 
 @media screen and (max-width: 1280px) {
-    .mifi-event {
-        display: flex;
-      }
+    
 }
 
 @media screen and (max-width: 1024px) {
@@ -97,6 +93,7 @@
   }
   .mifi-wwm {
     width: 100%;
+    text-align: center;
   }
 }
 @media screen and (max-width: 640px) {
@@ -105,5 +102,9 @@
   }
   .mifi-wwm {
     width: 100%;
+    text-align: center;
+  }
+  .mifi-wwm-btn button{
+      margin: 8px 0;
   }
 }
