@@ -24,7 +24,7 @@ export default function header() {
               </div>
             </div>
             <div className="mifi-wwm">
-              <div className="mifi-wwm-text">
+              <div className="mifi-wwm-title">
                 <h3>STREAMi-Fi</h3>
                 <h6>Song rhythm, streaming, Social community networking</h6>
               </div>
