@@ -23,6 +23,17 @@ export default function header() {
                 </div>
               </div>
             </div>
+            <div className="mifi-wwm">
+              <div className="mifi-wwm-text">
+                <h3>STREAMi-Fi</h3>
+                <h6>Song rhythm, streaming, Social community networking</h6>
+              </div>
+              <div className="mifi-wwm-btn">
+                <button className="sf-btn">
+                  <span className="sf-btn-text">Button</span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
