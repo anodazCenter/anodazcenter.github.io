@@ -25,7 +25,7 @@
     width: 100%;
     margin-top: auto;
     display: flex;
-    padding: calc(24px - 5vw);
+    padding: calc(16px + (24 - 16) * (100vw - 360px) / 1560);
 }
 .mifi-event{
     width: 40%;
