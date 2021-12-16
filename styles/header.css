@@ -69,3 +69,44 @@
     justify-content: space-between;
     margin-top: 24px;
 }
+
+
+
+
+@media screen and (max-width: 1536px) {
+    .mifi-layout-margin {
+      margin: 0 calc(80px + (100 - 80) * ((100vw - 1280px) / (1536 - 1280)));
+    }
+  }
+  
+  @media screen and (max-width: 1280px) {
+    .mifi-layout-margin {
+      margin: 0 calc(60px + (80 - 60) * ((100vw - 1024px) / (1280 - 1024)));
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .mifi-event{
+        display: none;
+    }
+    .mifi-wwm{
+        width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .mifi-event{
+        display: none;
+    }
+    .mifi-wwm{
+        width: 100%;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .mifi-event{
+        display: none;
+    }
+    .mifi-wwm{
+        width: 100%;
+    }
+  }
