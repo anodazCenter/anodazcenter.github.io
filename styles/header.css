@@ -86,12 +86,6 @@
         width: 100%;
         text-align: center;
       }
-      .mifi-wwm-btn {
-        flex-direction: column;
-      }
-      .mifi-wwm-btn button{
-          margin: 8px 0;
-      }
 }
 
 @media screen and (max-width: 768px) {
