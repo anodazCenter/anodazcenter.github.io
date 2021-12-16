@@ -1,3 +1,7 @@
+.mifi-layout-margin{
+    margin: 0 20px;
+    background-color: #0f0f0f;
+}
 @media screen and (max-width: 1536px) {
     .mifi-layout-margin{
         margin: 0 215px;
@@ -26,8 +30,5 @@
         margin: 0 40px;
     }
 }
-.mifi-layout-margin{
-    margin: 0 20px;
-    background-color: #0f0f0f;
-}
+
     
