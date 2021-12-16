@@ -9,9 +9,21 @@ export default function header() {
           <div className="mifi-header-logo">
             <img src="/images/logo_Streami-fi.png" alt="logo" />
           </div>
-            <div className="mifi-header-bottom mt-auto flex p-16">
-
+          <div className="mifi-header-bottom ">
+            <div className="mifi-event">
+              <img src="/images/logo_Streami-fi.png" alt="Event_logo" />
+              <div className="mifi-event-content">
+                <div className="mifi-event-title">
+                  <h6>Event -</h6>
+                  <h6> DJ.MiFI</h6>
+                </div>
+                <div>
+                  <p>Count Down</p>
+                  <h5></h5>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
       </div>
     </>

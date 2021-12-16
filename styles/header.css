@@ -19,10 +19,14 @@
 }
 .mifi-header-logo{
     width: calc(500px - 12vw);
+    margin: 0 auto;
 }
 .mifi-header-bottom{
     width: 100%;
     margin-top: auto;
     display: flex;
     padding: calc(24px - 5vw);
+}
+.mifi-event{
+    
 }
