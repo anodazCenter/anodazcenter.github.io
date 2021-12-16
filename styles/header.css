@@ -28,5 +28,8 @@
     padding: calc(24px - 5vw);
 }
 .mifi-event{
-    
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    padding: 16px;
 }
