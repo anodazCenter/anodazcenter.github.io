@@ -4,6 +4,8 @@ import "../styles/Text.css";
 import "../styles/button.css";
 import "../styles/layout_margin.css";
 import "../styles/header.css";
+
+
 import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {

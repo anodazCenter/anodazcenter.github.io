@@ -1,3 +1,4 @@
+import Header from "../component/header";
 import React from "react";
 
 export default function TestNewLanding() {
@@ -5,7 +6,7 @@ export default function TestNewLanding() {
   <>
   {/* header */}
   <div className="mifi-layout-margin">
-
+      <Header />
   </div>
   </>
   );
