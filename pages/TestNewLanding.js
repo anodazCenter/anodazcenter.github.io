@@ -17,6 +17,9 @@ export default function TestNewLanding() {
       <br/>
       <br/>
       <a className="bn39 mx-auto" href="#"><span className="bn39span">Button</span></a>
+      <button className="sf-btn">
+        <span className="sf-btn-text">Button</span>
+      </button>
       {/* form input */}
     </div>
   );
