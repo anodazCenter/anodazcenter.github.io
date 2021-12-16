@@ -15,11 +15,11 @@ export default function header() {
               <div className="mifi-event-content">
                 <div className="mifi-event-title">
                   <h6 className="event">Event -</h6>
-                  <h6 className="event-name"> DJ.MiFI</h6>
+                  <h6 className="event-name"> IDO</h6>
                 </div>
                 <div className="mifi-event-sub">
                   <p>Count Down</p>
-                  <h5>00 D 00 H 00 M</h5>
+                  <h5></h5>
                 </div>
               </div>
             </div>
