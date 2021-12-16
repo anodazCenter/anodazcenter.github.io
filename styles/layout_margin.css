@@ -1,39 +1,34 @@
-.mifi-layout-margin{
-    margin: 0 calc(10px + (20 - 10) * ((100vw - 230px) / (360 - 230)));
-    background-color: #0f0f0f; 
+.mifi-web-background {
+  background-color: #0f0f0f;
+}
+.mifi-layout-margin {
+  margin: 0 calc(10px + (20 - 10) * ((100vw - 230px) / (360 - 230)));
 }
 @media screen and (max-width: 1536px) {
-    .mifi-layout-margin{
-        margin: 0 calc(150px + (165 - 150) * ((100vw - 1280px) / (1536 - 1280)));
-        background-color: #0f0f0f; 
-    }
+  .mifi-layout-margin {
+    margin: 0 calc(150px + (165 - 150) * ((100vw - 1280px) / (1536 - 1280)));
+  }
 }
 
 @media screen and (max-width: 1280px) {
-    .mifi-layout-margin{
-        margin: 0 calc(100px + (150 - 100) * ((100vw - 1024px) / ( 1280 - 1024)));
-        background-color: #0f0f0f; 
-    }
+  .mifi-layout-margin {
+    margin: 0 calc(100px + (150 - 100) * ((100vw - 1024px) / (1280 - 1024)));
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    .mifi-layout-margin{
-        margin: 0 calc(60px + (100 - 60) * ((100vw - 768px) / (1280 - 768)));
-        background-color: #0f0f0f; 
-    }
-}
-    
-@media screen and (max-width: 768px) {
-    .mifi-layout-margin{
-        margin: 0 calc(40px + (60 - 40) * ((100vw - 640px) / (768 - 640)));
-        background-color: #0f0f0f; 
-    }
-}
-@media screen and (max-width: 640px) {
-    .mifi-layout-margin{
-        margin: 0 calc(20px + (40 - 20) * ((100vw - 360px) / (640 - 360)));
-        background-color: #0f0f0f; 
-    }
+  .mifi-layout-margin {
+    margin: 0 calc(60px + (100 - 60) * ((100vw - 768px) / (1280 - 768)));
+  }
 }
 
-    
+@media screen and (max-width: 768px) {
+  .mifi-layout-margin {
+    margin: 0 calc(40px + (60 - 40) * ((100vw - 640px) / (768 - 640)));
+  }
+}
+@media screen and (max-width: 640px) {
+  .mifi-layout-margin {
+    margin: 0 calc(20px + (40 - 20) * ((100vw - 360px) / (640 - 360)));
+  }
+}
