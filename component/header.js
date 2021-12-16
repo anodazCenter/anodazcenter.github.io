@@ -7,7 +7,7 @@ export default function header() {
       <div className="mifi-header">
         <div className="mifi-header-content">
           <div className="mifi-header-logo">
-            <img src="/images/logo.png" alt="logo" />
+            <img src="/images/logo_Streami-fi.png" alt="logo" />
           </div>
         </div>
       </div>
