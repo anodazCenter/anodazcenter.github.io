@@ -2,13 +2,14 @@
   width: 100%;
   height: 100vh;
   background-color: #0f0f0f;
-}
-.mifi-header-content {
   background-image: url("/images/bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+.mifi-header-content {
+  background-color: rgba(0, 0, 0, 0.25);
   width: 100%;
   height: 100%;
   display: flex;
