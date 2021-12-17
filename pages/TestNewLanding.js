@@ -2,6 +2,7 @@ import Header from "../component/header";
 import Vision from "../component/vision";
 import Case from "../component/case";
 import Asset from "../component/asset";
+import Token from "../component/token";
 import React from "react";
 
 export default function TestNewLanding() {
@@ -14,6 +15,7 @@ export default function TestNewLanding() {
           <Vision/>
           <Case/>
           <Asset/>
+          <Token/>
         </div>
       </div>
     </>

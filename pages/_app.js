@@ -7,6 +7,7 @@ import "../styles/header.css";
 import "../styles/vision.css";
 import "../styles/case.css";
 import "../styles/asset.css";
+import "../styles/token.css";
 
 
 import Head from "next/head";
