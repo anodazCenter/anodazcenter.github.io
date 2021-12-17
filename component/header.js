@@ -19,7 +19,7 @@ export default function header() {
                 </div>
                 <div className="mifi-event-sub">
                   <p>Count Down</p>
-                  <h5></h5>
+                  <h5> 25 DEC 2021</h5>
                 </div>
               </div>
             </div>

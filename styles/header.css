@@ -1,5 +1,4 @@
 .mifi-header {
-  padding-bottom: 5vh;
   width: 100%;
   height: 100vh;
   background-color: #0f0f0f;
@@ -19,7 +18,7 @@
 }
 .mifi-header-logo {
   width: calc(260px + (400 - 260) * (100vw - 360px) / 1560);
-  margin: 0 auto;
+  margin: 24px auto 0px auto;
 }
 .mifi-header-bottom {
   width: 100%;

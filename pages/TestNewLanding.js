@@ -1,5 +1,6 @@
 import Header from "../component/header";
-import Vision from "../component/footer";
+import Vision from "../component/vision";
+import Case from "../component/case";
 import React from "react";
 
 export default function TestNewLanding() {
@@ -10,6 +11,7 @@ export default function TestNewLanding() {
         <div className="mifi-layout-margin">
           <Header />
           <Vision/>
+          <Case/>
         </div>
       </div>
     </>

@@ -5,6 +5,7 @@ import "../styles/button.css";
 import "../styles/layout_margin.css";
 import "../styles/header.css";
 import "../styles/vision.css";
+import "../styles/case.css";
 
 
 import Head from "next/head";
