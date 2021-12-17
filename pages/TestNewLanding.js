@@ -3,6 +3,8 @@ import Vision from "../component/vision";
 import Case from "../component/case";
 import Asset from "../component/asset";
 import Token from "../component/token";
+import Roadmap from "../component/roadmap";
+import Footer from "../component/footer";
 import React from "react";
 
 export default function TestNewLanding() {
@@ -16,7 +18,9 @@ export default function TestNewLanding() {
           <Case/>
           <Asset/>
           <Token/>
+          <Roadmap/>
         </div>
+          <Footer/>
       </div>
     </>
   );

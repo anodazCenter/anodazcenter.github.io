@@ -1,0 +1,13 @@
+.mifi-footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #e21a84 60%, #6c2bbb);
+    box-shadow: inset 0 4px 4px rgba(255, 255, 255, 0.25);
+    padding: 8px 0;
+}
+.mifi-footer img{
+    width: 50px;
+    
+}
