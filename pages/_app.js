@@ -6,6 +6,7 @@ import "../styles/layout_margin.css";
 import "../styles/header.css";
 import "../styles/vision.css";
 import "../styles/case.css";
+import "../styles/asset.css";
 
 
 import Head from "next/head";
