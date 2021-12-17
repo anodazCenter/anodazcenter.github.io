@@ -11,11 +11,9 @@ export default function vision() {
                 <h6> Our Vision</h6>
               </div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perspiciatis labore corporis aliquid id tempore delectus
-                voluptatum fugit ratione voluptatibus incidunt. Repudiandae
-                reprehenderit similique deserunt, unde illum explicabo rem
-                officia assumenda.ß
+                Streami-fi is an NFT music and game platform where you may make
+                music, construct beat maps, or simply sit and listen to music
+                while earning money paid to you in SMF token.
               </p>
             </div>
           </div>
