@@ -99,7 +99,7 @@
       .mifi-wwm-btn {
         flex-direction: column;
       }
-      .mifi-wwm-btn button{
+      .mifi-wwm-btn a{
           margin: 8px 0;
       }
 }
@@ -114,7 +114,7 @@
   .mifi-wwm-btn {
     flex-direction: column;
   }
-  .mifi-wwm-btn button{
+  .mifi-wwm-btn a{
       margin: 8px 0;
   }
 }

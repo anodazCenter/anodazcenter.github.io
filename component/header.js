@@ -29,15 +29,15 @@ export default function header() {
                 <h6>Song rhythm, streaming, Social community networking</h6>
               </div>
               <div className="mifi-wwm-btn">
-                <button className="sf-btn">
-                  <span className="sf-btn-text">WHITELIST</span>
-                </button>
-                <button className="sf-btn">
-                  <span className="sf-btn-text">WHITEPAPER</span>
-                </button>
-                <button className="sf-btn">
-                  <span className="sf-btn-text">MARKETPLACE</span>
-                </button>
+                <a className="mifi-btn" href="#" >
+                  <span className="mifi-btn-text">WHITELIST</span>
+                </a>
+                <a className="mifi-btn" href="https://streami-fi.gitbook.io/streami-fi/" target='_blank' >
+                  <span className="mifi-btn-text">WHITEPAPER</span>
+                </a>
+                <a className="mifi-btn" href="#">
+                  <span className="mifi-btn-text">MARKETPLACE</span>
+                </a>
               </div>
             </div>
           </div>
