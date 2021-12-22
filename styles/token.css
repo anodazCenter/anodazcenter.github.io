@@ -1,72 +1,17 @@
 .mifi-token{
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 24px auto;
-}
-.mifi-token-title{
-    width: 350px;
-    height: 350px;
-    margin: 50px ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    color: #fff;
-    background-image: linear-gradient(135deg, #e21a84, #6c2bbb);
-    box-shadow: inset 2px 1.5px 4px 0px rgba(255, 255, 255, 0.5);
 }
 .mifi-token-content img{
-    height: 350px;
-}
-
-
-.mifi-token-m{
-    width: 80%;
-    background-image: linear-gradient(135deg, #e21a84, #6c2bbb);
-    border-radius: 30px;
-    padding: 14px;
-    box-shadow: inset 2px 1.5px 4px 0px rgba(255, 255, 255, 0.5); 
-    margin: 24px auto;
-}
-.mifi-token-m h3{
-    color: #fff;
-    margin-bottom: 12px;
-    text-align: right;
-}
-.mifi-token-content-m img{
     width: 100%;
 }
-.mifi-token-m{
-    display: none;
-}
 
 
-@media screen and (max-width: 1536px) {
-  
-}
-
-@media screen and (max-width: 1280px) {
-    .mifi-token-title{
-        width: 270px;
-        height: 270px;
-        margin: 25px ;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .mifi-token{
-        display: none;
-    }
-    .mifi-token-m{
-        display: block;
-    }
-}
-
-@media screen and (max-width: 768px) {
-   
-}
-@media screen and (max-width: 640px) {
- 
-}
+@media screen and (max-width: 1536px) {}
+@media screen and (max-width: 1280px) {}
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 640px) {}
