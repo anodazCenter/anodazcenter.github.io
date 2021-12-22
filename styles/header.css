@@ -66,8 +66,11 @@
 .mifi-wwm-btn {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   margin-top: 24px;
+}
+.mifi-wwm-btn a{
+  margin: 0px 8px;
 }
 
 @media screen and (max-width: 1536px) {
@@ -85,6 +88,12 @@
       .mifi-wwm {
         width: 100%;
         text-align: center;
+      }
+      .mifi-wwm-btn {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 24px;
       }
 }
 
