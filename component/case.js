@@ -16,27 +16,28 @@ export default function Case() {
             <h5 className="case-title ">Streami-fi</h5>
             <h5 className="case-title ">Stereo turntables</h5>
             <p className="case-sub-title-1 param-3">
-              For a limited time, a random headphones box will be available for
-              purchase, and users who own headphones will be rewarded with more
-              SMF tokens while playinggames or listening to music. The more SMF
-              tokens the headphones bring in, the rarer they are. Keep a keen
-              eye out for the best!
+              For a limited time, a random Stereo turntables box will be
+              available for purchase, and users who own Stereo turntables will
+              be rewarded with more SMF tokens while playing games or listening
+              to music. The more SMF tokens the Stereo turntables bring in, the
+              rarer they are. Keep a keen eye out for the best!
             </p>
           </div>
 
           <div className="mifi-case-content-text-2">
             <h5 className="case-title ">Year of Purchase</h5>
             <p className="case-sub-title-2 param-3">
-              Match the year of purchase of the headphones to the song for extra
-              tokens!
+              Match the year of purchase of the Stereo turntables to the song
+              for extra tokens!
             </p>
           </div>
 
           <div className="mifi-case-content-text-3">
-            <h5 className="case-title ">Year of Purchase</h5>
+            <h5 className="case-title ">Limited Artist Edition</h5>
             <p className="case-sub-title-3 param-3">
-              Match the year of purchase of the headphones to the song for extra
-              tokens!
+              Artist-themed or signature Stereo turntables that increase the
+              number of tokens you receive when you play or listen to their
+              music.
             </p>
           </div>
 
