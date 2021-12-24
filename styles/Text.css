@@ -1,28 +1,36 @@
 h1 {
-  font-size: calc(42px + (96 - 42) * (100vw - 360px) / 1560);
+  font-size: calc(45px + (60 - 45) * (100vw - 360px) / 1560);
 }
 h2 {
-  font-size: calc(36px + (72 - 36) * (100vw - 360px) / 1560);
+  font-size: calc(40px + (55 - 40) * (100vw - 360px) / 1560);
 }
 h3 {
-  font-size: calc(30px + (56 - 30) * (100vw - 360px) / 1560);
+  font-size: calc(35px + (50 - 35) * (100vw - 360px) / 1560);
 }
 h4 {
-  font-size: calc(26px + (42 - 26) * (100vw - 360px) / 1560);
+  font-size: calc(30px + (45 - 30) * (100vw - 360px) / 1560);
 }
 h5 {
-  font-size: calc(24px + (34 - 24) * (100vw - 360px) / 1560);
+  font-size: calc(25px + (40 - 25) * (100vw - 360px) / 1560);
 }
 h6 {
-  font-size: calc(20px + (26 - 20) * (100vw - 360px) / 1560);
+  font-size: calc(20px + (35 - 20) * (100vw - 360px) / 1560);
 }
 .title {
-  font-size: calc(18px + (26 - 18) * (100vw - 360px) / 1560);
+  font-size: calc(18px + (30 - 18) * (100vw - 360px) / 1560);
 }
-.sub-title{
-    font-size: calc(16px + (24 - 16) * (100vw - 360px) / 1560);
+.param-1{
+    font-size: calc(16px + (25 - 16) * (100vw - 360px) / 1560);
     font-weight: lighter;
 }
+.param-2{
+  font-size: calc(14px + (22 - 14) * (100vw - 360px) / 1560);
+  font-weight: lighter;
+}
+.param-3{
+  font-size: calc(12px + (18 - 12) * (100vw - 360px) / 1560);
+  font-weight: lighter;
+}
 button {
-    font-size: calc(20px + (24 - 20) * (100vw - 360px) / 1560);
+    font-size: calc(20px + (30 - 20) * (100vw - 360px) / 1560);
 }
