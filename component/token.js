@@ -5,7 +5,7 @@ export default function token() {
         <>
         <div className="mifi-token">
             <div className="mifi-token-content">
-                <img src='/images/tokenmics.png ' alt=''/>
+                <img src='/images/tokenomics.png ' alt=''/>
             </div>
         </div>
         </>
